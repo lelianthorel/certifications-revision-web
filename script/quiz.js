@@ -21,7 +21,7 @@
   const mistakeList = document.getElementById("mistake-list");
   const quizSection = document.getElementById("quiz-section");
 
-  fetch(`/data/${ccna}/${module}.json`)
+  fetch(`https://lelianthorel.github.io/certifications-revision-web/data/${ccna}/${module}.json`)
     .then(res => res.json())
     .then(data => {
       questions = data;

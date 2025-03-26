@@ -1,0 +1,458 @@
+[
+    {
+        "question": "Un ordinateur peut accéder aux périphériques situés sur le même réseau que lui, mais pas à ceux présents sur d’autres réseaux. Quelle est la cause probable de ce problème ?",
+        "choices": [
+            "Le câble n’est pas correctement raccordé à la carte réseau.",
+            "L’adresse de la passerelle par défaut de l’ordinateur n’est pas valide.", 
+            "L’adresse IP de l’ordinateur n’est pas valide.", 
+            "Le masque de sous-réseau de l’ordinateur n’est pas correct."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Quelle déclaration décrit une caractéristique du protocole IP ?",
+        "choices": [
+            "IP s’appuie sur les protocoles de couche 2 pour le contrôle des erreurs de transmission.",
+            "IP s’appuie sur les services de la couche supérieure pour gérer les situations de paquets manquants ou hors de service.", 
+            "Les adresses MAC sont utilisées lors de l’encapsulation de paquet IP.", 
+            "L’encapsulation IP est modifiée selon le support réseau."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Sur un réseau de production, quel est l’objectif de la configuration d’un commutateur avec une adresse de passerelle par défaut ?",
+        "choices": [
+            "Elle fournit une adresse de tronçon suivant pour tout le trafic qui traverse le commutateur.",
+            "Les hôtes connectés au commutateur peuvent utiliser l’adresse de la passerelle par défaut du commutateur pour transférer les paquets vers une destination distante.", 
+            "L’adresse de la passerelle par défaut est utilisée pour transférer les paquets provenant du commutateur vers des réseaux distants.", 
+            "Pour être accessible par Telnet et SSH, un commutateur doit disposer d’une passerelle par défaut."
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "Quelle proposition est une caractéristique de base du protocole IP ?",
+        "choices": [
+            "Remise de paquets fiable de bout en bout",
+            "Indépendant des supports", 
+            "Segmentation des données utilisateur", 
+            "Sans connexion"
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quel avantage l’en-tête IPv6 simplifié présente-t-il par rapport à IPv4 ?",
+        "choices": [
+            "Il est plus petit.",
+            "Les paquets sont gérés plus efficacement.", 
+            "Il ne nécessite que très peu de traitement des sommes de contrôle.", 
+            "Les adresses IP source et de destination sont plus courtes."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Quel champ de l’en-tête IPv4 identifie le protocole de la couche supérieure transmis dans le paquet ?",
+        "choices": [
+            "Protocole",
+            "Version", 
+            "Identification", 
+            "Services différenciés"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Quelles informations le test de bouclage fournit-il ?",
+        "choices": [
+            "Le câble Ethernet fonctionne correctement.",
+            "La pile TCP/IP sur le périphérique fonctionne correctement.", 
+            "Le périphérique possède l’adresse IP appropriée sur le réseau.", 
+            "Le périphérique dispose d’une connectivité de bout en bout.",
+            "Le protocole DHCP fonctionne correctement."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Comment les hôtes s’assurent-ils que leurs paquets sont dirigés vers la destination réseau appropriée ?",
+        "choices": [
+            "Dans leur propre table de routage locale, ils recherchent une route vers l’adresse de destination réseau et transmettent ces informations à la passerelle par défaut.",
+            "Ils envoient un paquet de requêtes à la passerelle par défaut pour demander quelle est la meilleure route.", 
+            "Ils dirigent toujours leurs paquets vers la passerelle par défaut, qui est responsable de la transmission des paquets.", 
+            "Ils doivent conserver leur propre table de routage locale qui contient une route vers l’interface de bouclage, une route réseau locale et une route par défaut distante."
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quelle proposition décrit la fonction du protocole ARP (Address Resolution Protocol) ?",
+        "choices": [
+            "Le protocole ARP permet de détecter l’adresse IP de tout hôte sur le réseau local.",
+            "Le protocole ARP permet de détecter l’adresse MAC de tout hôte sur un autre réseau.", 
+            "Le protocole ARP permet de détecter l’adresse MAC de tout hôte sur le réseau local.", 
+            "Le protocole ARP permet de détecter l’adresse IP de tout hôte sur un autre réseau."
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "Dans quelles deux circonstances un commutateur peut-il inonder chaque port d’une trame, à l’exception de celui sur lequel la trame a été reçue ? (Choisissez deux propositions.)?",
+        "choices": [
+            "L’adresse source de l’en-tête de la trame est l’adresse de diffusion.",
+            "L’adresse de destination est inconnue pour le commutateur.", 
+            "La trame a comme adresse de destination l’adresse de diffusion.", 
+            "L’adresse de destination de la trame est une adresse de monodiffusion connue.",
+            "L’adresse source de la trame est une adresse de multidiffusion."
+        ],
+        "answers": [1, 2]
+    },
+    {
+        "question": "Parmi les propositions suivantes, laquelle explique ce que font les demandes ARP sur une liaison locale ?",
+        "choices": [
+            "Elles sont transmises par tous les routeurs situés sur le réseau local.",
+            "Elles sont réceptionnées et traitées uniquement par le périphérique de destination.", 
+            "Elles sont abandonnées par tous les commutateurs situés sur le réseau local.", 
+            "Elles sont réceptionnées et traitées par tous les périphériques situés sur le réseau local."
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quelle adresse de destination est utilisée dans un cadre de requête ARP ?",
+        "choices": [
+            "FFFF.FFFF.FFFF",
+            "AAAA.AAAA.AAAA", 
+            "L’adresse MAC de l’hôte de destination", 
+            "255.255.255.255",
+            "0.0.0.0"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Un technicien réseau exécute une commande arp -d * sur un ordinateur après la reconfiguration du routeur connecté au réseau local. Quel est le résultat obtenu suite à l’exécution de cette commande ?",
+        "choices": [
+            "Le contenu actuel du cache ARP s’affiche.",
+            "Le cache ARP est vidé.", 
+            "Le cache ARP est synchronisé avec l’interface du routeur.", 
+            "Les informations détaillées du cache ARP s’affichent."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Quelles informations importantes sont examinées dans l’en-tête de la trame Ethernet par un périphérique de couche 2 avant de transmettre les données ?",
+        "choices": [
+            "Adresse IP source",
+            "Type Ethernet", 
+            "Adresse MAC d’origine", 
+            "Adresse IP de destination",
+            "Adresse MAC de destination"
+        ],
+        "answers": [4]
+    },
+    {
+        "question": "Citez deux fonctions de la mémoire vive non volatile. (Choisissez deux propositions.)?",
+        "choices": [
+            "Stocker la table ARP",
+            "Conserver le fichier de configuration en cours", 
+            "Conserver le fichier de configuration initiale", 
+            "Conserver le contenu en cas de panne de courant",
+            "Stocker la table de routage"
+        ],
+        "answers": [2, 3]
+    },
+    {
+        "question": "Un routeur démarre et entre en mode de configuration. Pour quelle raison ?",
+        "choices": [
+            "Le fichier de configuration est manquant dans NVRAM.",
+            "Le processus POST a détecté une défaillance matérielle.", 
+            "Cisco IOS est absent de la mémoire flash.", 
+            "L’image IOS est corrompue"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Quelles sont les trois commandes qui permettent de configurer un accès sécurisé à un routeur via une connexion à l’interface de console ? (Choisissez trois propositions.)?",
+        "choices": [
+            "login",
+            "password cisco", 
+            "line vty 0 4", 
+            "enable secret cisco",
+            "line console 0",
+            "Interface fastethernet 0/0"
+        ],
+        "answers": [0, 1, 4]
+    },
+    {
+        "question": "Quelles sont les deux fonctions principales d’un routeur? (Choisissez deux réponses.)?",
+        "choices": [
+            "Contrôle de flux",
+            "Choix des chemins", 
+            "Résolution de noms de domaine", 
+            "Microsegmentation",
+            "Transmission de paquets"
+        ],
+        "answers": [1, 4]
+    },
+    {
+        "question": "Quel est l’effet de l’utilisation de la commande Router# copy running-config startup-config sur un routeur?",
+        "choices": [
+            "Le contenu de la NVRAM changera.",
+            "Le contenu du flash va changer.", 
+            "Le contenu de la ROM changera.", 
+            "Le contenu de la RAM va changer."
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Que se passe-t-il si l’adresse de la passerelle par défaut n’est pas correctement configurée sur un hôte ?",
+        "choices": [
+            "Le commutateur ne transfère pas les paquets initiés par l’hôte.",
+            "L’hôte ne peut pas communiquer avec les hôtes situés sur d’autres réseaux.", 
+            "L’hôte doit utiliser le protocole ARP pour déterminer l’adresse de la passerelle par défaut.", 
+            "L’hôte ne peut pas communiquer avec les autres hôtes du réseau local.",
+            "Une requête ping exécutée par l’hôte vers 127.0.0.1 échoue."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Quels sont les problèmes réseau potentiels pouvant résulter du fonctionnement d’ARP ? (Choisissez deux réponses.)?",
+        "choices": [
+            "Les attaques sur le réseau peuvent manipuler les mappages d’adresses MAC et IP dans les messages ARP pour intercepter le trafic réseau.",
+            "Sur les grands réseaux à faible bande passante, plusieurs diffusions ARP peuvent entraîner des délais de communication de données.", 
+            "Un grand nombre de diffusions de requête ARP peuvent entraîner un débordement de la table des adresses MAC de l’hôte et empêcher ce dernier de communiquer sur le réseau.", 
+            "La configuration manuelle d’associations ARP statiques peut faciliter l’empoisonnement ARP ou l’usurpation d’adresses MAC.",
+            "Plusieurs réponses ARP entraînent la présence d’entrées de table d’adresses MAC du commutateur, correspondant aux adresses MAC des hôtes qui sont connectés au port de commutateur approprié."
+        ],
+        "answers": [0, 1]
+    },
+    {
+        "question": "Quel terme décrit un champ dans l’en-tête de paquet IPv4 qui contient une valeur binaire 4 bits définie sur 0100?",
+        "choices": [
+            "version",
+            "protocole", 
+            "Durée de vie (TTL)", 
+            "L’adresse IPv4 de source"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Quelle propriété d’ARP permet aux hôtes d’un réseau local d’envoyer du trafic vers des réseaux distant?",
+        "choices": [
+            "L’adresse MAC de source apparaît dans l’en-tête de la trame Ethernet.",
+            "L’adresse MAC de la passerelle par défaut", 
+            "L’adresse MAC de destination FF-FF-FF-FF-FF-FF apparaît dans l’en-tête de la trame Ethernet", 
+            "Les réponses ARP sont diffusées sur le réseau lorsqu’un hôte reçoit une demande ARP."
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Pourquoi la traduction d’adresses de réseau (NAT) n’est pas nécessaire dans IPv6 ?",
+        "choices": [
+            "N’importe quel hôte ou utilisateur peut obtenir une adresse réseau IPv6 publique car le nombre d’adresses IPv6 disponibles est très important.",
+            "IPv6 dispose d’une sécurité intégrée, il est donc inutile de masquer les adresses IPv6 des réseaux internes.", 
+            "Les problèmes de connectivité de bout en bout causés par la fonction NAT sont résolus car le nombre de routes augmente proportionnellement au nombre de noeuds connectés à Internet.", 
+            "Les problèmes induits par les applications NAT sont résolus car l’en-tête IPv6 améliore le traitement des paquets par les routeurs intermédiaires."
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Quel paramètre le routeur utilise-t-il pour choisir le chemin vers la destination lorsque plusieurs routes sont disponibles ?",
+        "choices": [
+            "La valeur métrique la plus forte qui est associée au réseau de destination",
+            "La valeur métrique la plus faible qui est associée au réseau de destination", 
+            "L’adresse IP de la passerelle inférieure pour atteindre le réseau de destination", 
+            "L’adresse IP de la passerelle supérieure pour atteindre le réseau de destination"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "La couche réseau du modèle OSI fournit deux services. Lesquels ? (Choisissez deux propositions.)",
+        "choices": [
+            "Encapsulation des PDU provenant de la couche transport",
+            "Détection d’erreurs", 
+            "Positionnement des trames sur les supports", 
+            "Routage des paquets vers la destination",
+            "Détection de collisions"
+        ],
+        "answers": [0, 3]
+    },
+    {
+        "question": "Quelle entrée de la table de routage comporte une adresse de tronçon suivant associée à un réseau de destination ?",
+        "choices": [
+            "Les routes directement connectées",
+            "Les routes source C et L", 
+            "Les routes locales", 
+            "Les routes distantes"
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quels sont les deux types de messages IPv6 utilisés à la place de l’ARP pour la résolution d’adresse?",
+        "choices": [
+            "diffusion",
+            "Requête d’écho", 
+            "d’écho ICMP.", 
+            "anycast",
+            "Sollicitation de voisin",
+            "Annonce de voisin"
+        ],
+        "answers": [4, 5]
+    },
+    {
+        "question": "Quel est le but d’une attaque par usurpation ARP ?",
+        "choices": [
+            "Remplir les tables d’adressage MAC des commutateurs avec de fausses adresses",
+            "Inonder le réseau avec des réponses ARP", 
+            "Engorger les hôtes réseau avec des requêtes ARP", 
+            "Associer des adresses IP à des adresses MAC incorrectes"
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Un nouvel administrateur de réseau a été invité à saisir un message de bannière sur un appareil Cisco. Quel est le moyen le plus rapide pour un administrateur de réseau de vérifier si la bannière est correctement configurée ?",
+        "choices": [
+            "Quittez le mode de configuration globale.",
+            "Quittez le mode d’exécution privilégié et appuyez sur Enter.", 
+            "Saisissez CTRL-Z à l’invite de mode privilégié.", 
+            "Redémarrez l’appareil.",
+            "Éteignez le téléphone puis rallumez-le."
+        ],
+        "answers": [1]
+    },
+
+    {
+        "question": "La commande de configuration globale ip default-gateway 172.16.100.1 est appliquée sur un commutateur. Quel est l’effet de cette commande?",
+        "choices": [
+            "Le commutateur peut être géré à distance à partir d’un hôte sur un autre réseau.",
+            "Le commutateur aura une interface de gestion avec l’adresse 172.16.100.1.", 
+            "Le commutateur peut communiquer avec d’autres hôtes du réseau 172.16.100.0.", 
+            "Le commutateur est limité à l’envoi et à la réception de trames vers et depuis la passerelle 172.16.100.1."
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Que se passe-t-il lorsque la commande transport input ssh est entrée sur les lignes vty du switch?",
+        "choices": [
+            "Le client SSH sur le commutateur est activé.",
+            "Le commutateur nécessite une combinaison nom d’utilisateur/mot de passe pour l’accès à distance.", 
+            "La communication entre le commutateur et les utilisateurs distants est cryptée.", 
+            "Le commutateur nécessite des connexions à distance via un logiciel client propriétaire."
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "Quel terme décrit un champ dans l’en-tête de paquet IPv4 utilisé pour identifier le protocole de niveau suivant?",
+        "choices": [
+            "protocole",
+            "Des services différenciés", 
+            "version", 
+            "Somme de contrôle d’en-tête"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Quelle propriété d’ARP fait que les cartes réseau recevant une demande ARP transmettent la partie données de la trame Ethernet au processus ARP?",
+        "choices": [
+            "La table d’adresses Port-à-Mac sur un commutateur a les mêmes entrées que la table ARP sur le commutateur.",
+            "L’adresse MAC de destination FF-FF-FF-FF-FF-FF apparaît dans l’en-tête de la trame Ethernet.", 
+            "Le champ de type 0x806 apparaît dans l’en-tête de la trame Ethernet.", 
+            "Les entrées d’une table ARP sont horodatées et purgées après l’expiration du délai d’expiration."
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "Lors du transport des données depuis des applications en temps réel, notamment la lecture audio et vidéo en continu, quel champ de l’en-tête IPv6 peut être utilisé pour informer les routeurs et les commutateurs de conserver le même chemin pour les paquets au sein de la même conversation ?",
+        "choices": [
+            "Classe de trafic",
+            "En-tête suivant", 
+            "Services différenciés", 
+            "Étiquetage de flux"
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quel champ de l’en-tête IPv4 permet d’empêcher un paquet de traverser un réseau indéfiniment ?",
+        "choices": [
+            "Numéro de séquence",
+            "Time To Live (durée de vie)", 
+            "Numéro d’accusé de réception", 
+            "Services différenciés"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "Quelle propriété d’ARP permet de fixer les adresses MAC des serveurs fréquemment utilisés dans la table ARP?",
+        "choices": [
+            "Une entrée d’adresse IP à Mac statique peut être saisie manuellement dans une table ARP.",
+            "L’adresse MAC de source apparaît dans l’en-tête de la trame Ethernet.", 
+            "La table d’adresses Port-à-Mac sur un commutateur a les mêmes entrées que la table ARP sur le commutateur.", 
+            "L’adresse MAC de destination FF-FF-FF-FF-FF-FF apparaît dans l’en-tête de la trame Ethernet."
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "Quel terme décrit un champ de l’en-tête de paquet IPv4 qui contient une adresse de monodiffusion, de multidiffusion ou de diffusion ?",
+        "choices": [
+            "Durée de vie",
+            "Somme de contrôle d’en-tête", 
+            "protocole", 
+            "L’adresse IP de destination"
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Sur un ordinateur hôte, où sont enregistrés les mappages adresse IPv4-adresse Ethernet de couche 2 ?",
+        "choices": [
+            "table de voisinage",
+            "cache ARP", 
+            "table de routage", 
+            "Table des adresses MAC"
+        ],
+        "answers": [1]
+    },
+
+    {
+        "question": "Quel terme décrit un champ dans l’en-tête de paquet IPv4 qui contient une valeur binaire 32 bits associée à une interface sur le périphérique d’envoi?",
+        "choices": [
+            "L’adresse IP de destination",
+            "protocole", 
+            "adresse IPv4 source", 
+            "Durée de vie (TTL)"
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "Quelle propriété d’ARP fait que les mappages IP-Mac mis en cache restent en mémoire plus longtemps?",
+        "choices": [
+            "Le champ de type 0x806 apparaît dans l’en-tête de la trame Ethernet.",
+            "La table d’adresses Port-à-Mac sur un commutateur a les mêmes entrées que la table ARP sur le commutateur.", 
+            "Les entrées d’une table ARP sont horodatées et purgées après l’expiration du délai d’expiration.", 
+            "Une entrée d’adresse IP à Mac statique peut être saisie manuellement dans une table ARP."
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "Quelle propriété d’ARP provoque l’inondation de la demande de tous les ports d’un commutateur à l’exception du port recevant la demande ARP?",
+        "choices": [
+            "Les entrées d’une table ARP sont horodatées et purgées après l’expiration du délai d’expiration",
+            "Le champ de type 0x806 apparaît dans l’en-tête de la trame Ethernet.", 
+            "Les réponses ARP sont diffusées sur le réseau lorsqu’un hôte reçoit une demande ARP.", 
+            "L’adresse MAC de destination FF-FF-FF-FF-FF-FF apparaît dans l’en-tête de la trame Ethernet."
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quelle propriété d’ARP provoque une réponse uniquement à la source qui envoie une demande ARP?",
+        "choices": [
+            "Les réponses ARP sont diffusées sur le réseau lorsqu’un hôte reçoit une demande ARP.",
+            "L’adresse MAC de destination FF-FF-FF-FF-FF-FF apparaît dans l’en-tête de la trame Ethernet.", 
+            "Le champ de type 0x806 apparaît dans l’en-tête de la trame Ethernet.", 
+            "L’adresse MAC de source apparaît dans l’en-tête de la trame Ethernet."
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "Quel terme décrit un champ dans l’en-tête de paquet IPv4 utilisé pour limiter la durée de vie d’un paquet?",
+        "choices": [
+            "Durée de vie (TTL)",
+            "protocole", 
+            "adresse IPv4 source", 
+            "Somme de contrôle d’en-tête"
+        ],
+        "answers": [0]
+    }
+]

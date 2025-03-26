@@ -1,0 +1,20 @@
+body {
+    padding-top: 70px;
+    background: linear-gradient(to right, #e3f2fd, #f1f8e9);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .module-card {
+    transition: all 0.3s ease;
+    border-radius: 16px;
+  }
+  .module-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  .icon-module {
+    font-size: 2rem;
+    color: #0d6efd;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }

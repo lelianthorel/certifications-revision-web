@@ -1,0 +1,353 @@
+[
+    {
+       "question": "3. Quels sont les deux avantages du routage statique sur le routage dynamique ? (Choisissez deux réponses.)",
+       "choices": [
+          "Le routage statique se met à l’échelle facilement pour suivre l’évolution des réseaux.",
+          "Le routage statique utilise moins de ressources du routeur que le routage dynamique.",
+          "Le routage statique est relativement facile à configurer pour les grands réseaux.",
+          "Le routage statique ne demande qu’une connaissance minime du réseau pour être implémenté correctement.",
+          "Le routage statique est plus sûr puisqu’il n’envoie pas d’annonces sur le réseau."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "4. Dans quel cas est-il préférable d’utiliser un protocole de routage dynamique au lieu du routage statique ?",
+       "choices": [
+          "dans une entreprise où les routeurs rencontrent des problèmes de performances",
+          "pour les réseaux d’entreprise de petite taille qui ne sont pas amenés à se développer de manière significative",
+          "pour un réseau souche avec un point de sortie unique",
+          "sur un réseau où de nombreuses modifications de la topologie ont été effectuées"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Question non trouvé",
+       "choices": [
+          "110",
+          "120",
+          "4",
+          "1"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "7. Un administrateur réseau configure l’interface Fa0/0 du routeur R1 avec la commande ip address 172.16.1.254 255.255.255.0 . Cependant, lorsqu’il exécute la commande show ip route , la table de routage n’affiche pas le réseau connecté directement. Quelle est la cause possible du problème ?",
+       "choices": [
+          "La configuration doit être d’abord enregistrée.",
+          "Le masque de sous-réseau n’est pas valide pour l’adresse IPv4.",
+          "L’interface fa0/0 n’a pas été activée.",
+          "Aucun paquet dont le réseau de destination est 172.16.1.0 n’a été envoyé à R1."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "8. Un routeur a utilisé le protocole OSPF pour apprendre une route vers le réseau 172.16.32.0/19. Quelle commande implémente une route statique flottante de secours vers ce réseau ?",
+       "choices": [
+          "ip route 172.16.0.0 255.255.224.0 S0/0/0 100",
+          "ip route 172.16.32.0 255.255.224.0 S0/0/0 200",
+          "ip route 172.16.32.0 255.255.0.0 S0/0/0 100",
+          "ip route 172.16.0.0 255.255.240.0 S0/0/0 200"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "9. Sur quels routeurs une route statique par défaut doit être configurée ? (Choisissez deux réponses.)",
+       "choices": [
+          "Le routeur de destination utilisé comme passerelle de dernier recours",
+          "Un routeur souche connecté au reste du réseau d’entreprise ou de campus",
+          "Tout routeur nécessitant une route de secours du routage dynamique pour la fiabilité",
+          "Tout routeur exécutant une version IOS précédente à 12.0",
+          "Un routeur de périphérie connecté à un FAI"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "11. Quelle est la caractéristique d’une route statique flottante?",
+       "choices": [
+          "Lorsqu’il est configuré, il crée une passerelle de dernier recours.​",
+          "Il est utilisé pour fournir l’équilibrage de charge entre les routes statiques.",
+          "Il s’agit simplement d’une route statique avec 0.0.0.0/0 comme adresse IPv4 de destination.",
+          "Elle est configurée avec une distance administrative supérieure à celle du protocole de routage dynamique original."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "12. Quelle combinaison de préfixe réseau et de longueur de préfixe est utilisée pour créer une route statique par défaut qui correspondra à n’importe quelle destination IPv6 ?",
+       "choices": [
+          "::/0",
+          "::1/64",
+          "FFFF::/128",
+          "::/128"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "Quelle opération le routeur R2 effectue sur un paquet destiné à 192.168.10.129 ?",
+       "choices": [
+          "envoyer le paquet en sortie sur l’interface FastEthernet0/0",
+          "supprimer le paquet",
+          "envoyer le paquet en sortie sur l’interface Serial0/0/0",
+          "envoyer le paquet en sortie sur l’interface Serial0/0/1"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "14. Un administrateur exécute la commande ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::1 100 sur un routeur. Quelle distance administrative est attribuée à cette route ?",
+       "choices": [
+          "0",
+          "1",
+          "32",
+          "100"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "26. Quelle caractéristique complète l’énoncé suivant ?",
+       "choices": [
+          "la commande « show ipv6 route static ».",
+          "la commande “ipv6 unicast-routing”.",
+          "l’adresse de saut suivant de deux routeurs adjacents différents.",
+          "le type d’interface et le numéro d’interface."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "27. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.139.244 ?",
+       "choices": [
+          "Serial0/0/1",
+          "GigabitEthernet0/0",
+          "GigabitEthernet0/1",
+          "Aucun, le paquet est abandonné."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "30. Quelles sont les informations requises dans une route statique entièrement spécifiée pour éliminer les recherches récurrentes ? (Choisissez deux réponses.)",
+       "choices": [
+          "l’adresse IP du voisin du tronçon suivant",
+          "l’ID d’interface du voisin du tronçon suivant",
+          "l’ID de l’interface de sortie",
+          "l’adresse IP de l’interface de sortie",
+          "la distance administrative pour le réseau de destination"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "35. Qu’arrive-t-il à une entrée de route statique de la table de routage lorsque l’interface sortante associée à cette route est mise hors service ?",
+       "choices": [
+          "La route statique est supprimée de la table de routage.",
+          "La route statique reste dans la table, car elle est définie comme statique.",
+          "Le routeur redirige automatiquement la route statique pour utiliser une autre interface.",
+          "Le routeur sonde les voisins pour une route de remplacement."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "36. Quelle est la caractéristique d’une route statique qui correspond à tous les paquets ?",
+       "choices": [
+          "Elle est configurée avec une distance administrative supérieure à celle du protocole de routage dynamique original.",
+          "Elle sauvegarde la route déjà découverte par un protocole de routage dynamique.",
+          "Elle utilise une adresse de réseau unique pour envoyer plusieurs routes statiques à une adresse de destination.",
+          "Elle identifie l’adresse IP passerelle à laquelle le routeur envoie tous les paquets d’IP pour lesquels il n’a pas de route statique ou acquise."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "37. Quelle route est utilisée pour transférer un paquet associé à une adresse IP source 192.168.10.1 et une adresse IP de destination 10.1.1.1 ?",
+       "choices": [
+          "S 10.1.0.0/16 is directly connected, GigabitEthernet0/0",
+          "C 192.168.10.0/30 is directly connected, GigabitEthernet0/1",
+          "S* 0.0.0.0/0 [1/0] via 172.16.1.1",
+          "O 10.1.1.0/24 [110/65] via 192.168.200.2, 00:01:20, Serial0/1/0"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "38. Quelle valeur dans une table de routage représente la fiabilité et est utilisée par le routeur pour déterminer l’itinéraire à installer dans la table de routage lorsqu’il existe plusieurs itinéraires vers la même destination?",
+       "choices": [
+          "protocole de routage",
+          "mesure",
+          "distance administrative",
+          "interface de sortie"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "Comment l’administrateur devrait-il tester cette configuration ?",
+       "choices": [
+          "Supprimer la route de la passerelle par défaut sur le routeur.",
+          "Envoyer un message Ping au réseau 192.168.10.0 à l’adresse 10.10.10.2.",
+          "Arrêter manuellement l’interface du routeur utilisée comme route principale.",
+          "Envoyer un message Ping à une adresse valide du réseau 192.168.10.0/24."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "43. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.19.115.206 ?",
+       "choices": [
+          "Le paquet prend la passerelle de dernier recours.",
+          "GigabitEthernet0/1",
+          "Aucun, le paquet est abandonné.",
+          "GigabitEthernet0/0"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "47. Référez-vous à l’exposition. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.18.109.152 ?",
+       "choices": [
+          "Aucun, le paquet est abandonné.",
+          "Serial0/0/0",
+          "GigabitEthernet0/1",
+          "GigabitEthernet0/0"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "48. Quelle route est associée à la distance administrative la plus courte ?",
+       "choices": [
+          "un réseau connecté directement",
+          "une route reçue via le protocole de routage OSPF",
+          "une route statique",
+          "une route reçue via le protocole de routage EIGRP"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "Que signifie le 5 à la fin de la commande?",
+       "choices": [
+          "nombre maximal de sauts sur le réseau 192.168.10.0/24",
+          "Interface de sortie",
+          "Métrique",
+          "distance administrative"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.3.86.2 ?",
+       "choices": [
+          "Serial0/0/1",
+          "Serial0/0/0",
+          "GigabitEthernet0/1",
+          "GigabitEthernet0/0"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "51. Quelle caractéristique complète l’énoncé suivant ?",
+       "choices": [
+          "la commande “ipv6 unicast-routing”.",
+          "l’adresse de saut suivant de deux routeurs adjacents différents.",
+          "une adresse lien-local IPv6 sur le routeur adjacent.",
+          "une distance administrative de 2."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "52. Quelle caractéristique complète l’énoncé suivant ?",
+       "choices": [
+          "la commande “ipv6 unicast-routing”.",
+          "l’adresse de saut suivant de deux routeurs adjacents différents.",
+          "።/0.",
+          "un réseau multiaccès directement connecté."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "53. Se référer à la pièce jointe. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.25.128.244 ?",
+       "choices": [
+          "GigabitEthernet0/0",
+          "GigabitEthernet0/1",
+          "Serial0/0/1",
+          "Aucun, le paquet est abandonné."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "54. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.55.99.78 ?",
+       "choices": [
+          "Serial0/0/1",
+          "GigabitEthernet0/1",
+          "Serial0/0/0",
+          "GigabitEthernet0/0"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "55. Quelle caractéristique complète l’énoncé suivant?",
+       "choices": [
+          "une distance administrative de 2.",
+          "la commande “ipv6 unicast-routing”.",
+          "l’adresse de saut suivant de deux routeurs adjacents différents.",
+          "un itinéraire hôte de destination avec un préfixe /128."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "56. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.71.52 ?",
+       "choices": [
+          "Le paquet prend la passerelle de dernier recours.",
+          "GigabitEthernet0/1",
+          "Serial0/0/0",
+          "Aucun, le paquet est abandonné."
+       ],
+       "answers": [
+          2
+       ]
+    }
+ ]

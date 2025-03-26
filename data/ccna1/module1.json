@@ -1,0 +1,256 @@
+[
+    {
+        "question": "Quelle interface permet la gestion à distance d’un commutateur de couche 2 ?",
+        "choices": ["L’interface virtuelle du commutateur", "L’interface du port de console", "L’interface AUX", "La première interface de port Ethernet"],
+        "answers": [0]
+    },
+    {
+        "question": "Un employé d’une filiale établit un devis pour un client. Pour ce faire, il doit accéder à des informations confidentielles de prix sur les serveurs internes du siège. À quel type de réseau l’employé pourrait-il accéder ?",
+        "choices": ["Un réseau local", "Un intranet", "Un extranet", "sur Internet"],
+        "answers": [1]
+    },
+    {
+        "question": "Quels sont les deux critères utilisés pour choisir un support réseau parmi les différentes options ? (Choisissez deux réponses.)",
+        "choices": ["Le nombre de périphériques intermédiaires installés sur le réseau", "Le coût des périphériques finaux utilisés sur le réseau", "L’environnement dans lequel le support sera installé", "La distance sur laquelle le support peut transporter correctement un signal", "Les types de données devant être priorisés"],
+        "answers": [2, 3]
+    },
+    {
+        "question": "Quel est l’effet de la touche Tabulation lors de la saisie d’une commande dans IOS ?",
+        "choices": ["Elle permet de compléter un mot saisi partiellement dans une commande.", "Elle permet d’abandonner la commande actuelle et de revenir au mode de configuration.", "Elle permet de positionner le curseur au début de la ligne suivante.", "Elle permet de quitter le mode de configuration et de revenir au mode EXEC privilégié."],
+        "answers": [0]
+    },
+    {
+        "question": "Un administrateur utilise la combinaison de touches Ctrl-Maj-6 sur un commutateur après l’exécution de la commande ping . À quoi servent ces combinaisons de touches ?",
+        "choices": ["À rejoindre un autre mode de configuration", "À redémarrer le processus ping", "À interrompre le processus ping", "À permettre à l’utilisateur de terminer la commande"],
+        "answers": [2]
+    },
+    {
+        "question": "Un technicien configure un commutateur avec les commandes suivantes : SwitchA(config)# interface vlan 1 SwitchA(config-if)# ip address 192.168.1.1 255.255.255.0 SwitchA(config-if)# no shutdown | Que configure le technicien ?",
+        "choices": ["L’accès au port de commutateur physique", "L’interface SVI", "L’accès à Telnet", "Le chiffrement du mot de passe"],
+        "answers": [1]
+    },
+    {
+        "question": "Quelle commande ou combinaison de touches permet à un utilisateur de revenir au niveau précédent dans la hiérarchie des commandes ?",
+        "choices": ["Ctrl + Z", "end", "exit", "Ctrl + C"],
+        "answers": [2]
+    },
+    {
+        "question": "Quelles sont deux caractéristiques de la mémoire vive sur un équipement Cisco ? (Choisissez deux propositions.)",
+        "choices": ["La mémoire vive offre un stockage non volatile.", "La configuration en cours sur l’équipement est stockée dans la mémoire vive.", "La mémoire vive est un composant des commutateurs Cisco, mais pas des routeurs Cisco.", "La mémoire vive peut stocker plusieurs versions d’IOS et de fichiers de configuration.", "Le contenu de la mémoire vive peut être perdu lorsque l’équipement est arrêté et rallumé."],
+        "answers": [1, 4]
+    },
+    {
+        "question": "Quels sont les deux noms d’hôte qui respectent les règles d’attribution de nom applicables aux terminaux Cisco IOS ? (Choisissez deux propositions.)",
+        "choices": ["RM-3-Switch-2A4", "Floor(15)", "Branch2!", "HO Floor 17", "SwBranch799"],
+        "answers": [0, 4]
+    },{
+        "question": "Quelle commande est utilisée pour vérifier les conditions des interfaces de commutation, y compris l’état des interfaces et une adresse IP configurée ?",
+        "choices": ["ping", "traceroute", "show ip interface brief", "ipconfig"],
+        "answers": [2]
+    },
+    {
+        "question": "Après avoir modifié la configuration sur un commutateur Cisco, un administrateur réseau exécute la commande copy running-config startup-config . Quel est le résultat de l’exécution de cette commande ?",
+        "choices": ["La nouvelle configuration est stockée dans la mémoire flash.", "La nouvelle configuration est chargée si le commutateur redémarre.", "Le fichier IOS actuel est remplacé par le fichier qui vient d’être configuré.", "Les modifications de la configuration sont supprimées et la configuration d’origine est restaurée."],
+        "answers": [1]
+    },
+    {
+        "question": "Quelle commande empêche tous les mots de passe non chiffrés de s’afficher en texte clair dans un fichier de configuration ?",
+        "choices": ["(config)# enable password secret", "(config)# enable secret Encrypted_Password", "(config)# enable secret Secret_Password", "(config)# service password-encryption", "(config-line)# password secret"],
+        "answers": [3]
+    },
+    {
+        "question": "Un administrateur réseau entre la commande de service password-encryption dans le mode de configuration d’un routeur. Quelle commande permet d’effectuer cette tâche?",
+        "choices": ["Cette commande chiffre automatiquement les mots de passe dans les fichiers de configuration actuellement stockés dans NVRAM.", "Cette commande fournit un mot de passe crypté exclusif pour le personnel de service externe qui doit effectuer la maintenance du routeur.", "Cette commande empêche quelqu’un d’afficher les mots de passe de configuration en cours d’exécution.", "Cette commande active un algorithme de chiffrement fort pour la commande enable secret password .", "Cette commande crypte les mots de passe au fur et à mesure qu’ils sont transmis via des liaisons WAN série."],
+        "answers": [2]
+    },
+    {
+        "question": "Quelle proposition décrit précisément le processus d’encapsulation TCP/IP lorsqu’un PC envoie des données sur le réseau ?",
+        "choices": ["Les données sont envoyées de la couche Internet à la couche d’accès au réseau.", "Les trames sont envoyées de la couche d’accès au réseau à la couche Internet.", "Les segments sont envoyés de la couche transport à la couche Internet.", "Les paquets sont envoyés de la couche d’accès au réseau à la couche transport."],
+        "answers": [2]
+    },
+    {
+        "question": ". Quel nom est donné à l’unité de données de protocole de la couche transport ?",
+        "choices": ["trame", "segment", "bit", "données", "paquet"],
+        "answers": [1]
+    },
+    {
+        "question": "Lorsque l’adressage IPv4 est configuré manuellement sur un serveur web, quelle propriété de la configuration IPv4 identifie la partie réseau et la partie hôte d’une adresse IPv4 ?",
+        "choices": ["L’adresse du serveur DNS", "L’adresse du serveur DHCP", "La passerelle par défaut", "Le masque de sous-réseau"],
+        "answers": [3]
+    },
+    {
+        "question": "Quel format d’unité de données de protocole est utilisé lorsque des bits sont reçus du support réseau par la carte réseau d’un hôte ?",
+        "choices": ["segment", "fichier", "trame", "paquet"],
+        "answers": [2]
+    },
+    {
+        "question": "Quelle méthode permet à un ordinateur de réagir en conséquence lorsqu’il demande des données à un serveur et que ce dernier tardera à répondre ?",
+        "choices": ["la méthode d’accès", "Délai d’attente de la réponse", "Encapsulation", "Contrôle de flux"],
+        "answers": [1]
+    },
+    {
+        "question": "Un client Web reçoit une réponse pour une page Web d’un serveur Web. Du point de vue du client, quel est l’ordre correct de la pile de protocole utilisée pour décoder la transmission reçue?",
+        "choices": ["HTTP, TCP, IP, Ethernet", "Ethernet, TCP, IP, HTTP", "HTTP, TCP, IP, Ethernet", "Ethernet, IP, TCP, HTTP"],
+        "answers": [3]
+    },
+    {
+        "question": "Deux couches du modèle OSI ont les mêmes fonctionnalités que deux autres couches du modèle TCP/IP? Lesquelles?(Choisissez deux réponses.)",
+        "choices": ["Session", "Réseau", "liaison de données", "transport", "Physique"],
+        "answers": [2, 4]
+    },
+    {
+        "question": "Parmi les propositions relatives aux protocoles réseau, laquelle est exacte ?",
+        "choices": ["Les protocoles réseau définissent le type de matériel utilisé et la façon dont il est monté dans les racks.", "Ils définissent la façon dont les messages sont échangés entre la source et la destination.", "Ils sont uniquement requis pour échanger des messages entre des périphériques sur des réseaux distants.", "Ils fonctionnent tous dans la couche d’accès au réseau de TCP/IP."],
+        "answers": [1]
+    },
+    {
+        "question": "Quel périphérique permet de déterminer le chemin que les messages doivent prendre à travers les interréseaux ?",
+        "choices": ["Un pare-feu", "Un modem DSL", "Un routeur", "Un serveur Web"],
+        "answers": [2]
+    },
+    {
+        "question": "Pourquoi un commutateur de couche 2 nécessite-t-il une adresse IP ?",
+        "choices": ["Pour permettre au commutateur d’envoyer des trames de diffusion vers des PC connectés", "Pour permettre au commutateur de fonctionner en tant que passerelle par défaut", "Pour permettre au commutateur de recevoir des trames provenant de PC connectés", "Pour permettre au commutateur d’être géré à distance"],
+        "answers": [3]
+    },
+    {
+        "question": "Quel terme décrit un modèle informatique où les logiciels serveur s’exécutent sur des ordinateurs dédiés?",
+        "choices": ["La couche Internet", "intranet", "client/serveur", "extranet"],
+        "answers": [2]
+    },
+    {
+        "question": "À quelle couche OSI les données sont-elles ajoutées à une PDU pendant le processus d’encapsulation?",
+        "choices": ["couche application", "couche présentation", "couche réseau", "couche transport"],
+        "answers": [0]
+    },
+    {
+        "question": "Parmi les propositions suivantes, laquelle décrit l’utilisation d’une technologie de réseau sur courant électrique ?",
+        "choices": ["Un LAN domestique est installé sans utiliser de câblage physique.", "Un terminal se connecte à un LAN domestique grâce à un adaptateur et à une prise de courant électrique.", "Un nouveau câblage électrique intelligent est utilisé pour étendre un réseau LAN domestique.", "Les points d’accès sans fil utilisent des adaptateurs de courant électrique pour diffuser les données à travers le LAN domestique."],
+        "answers": [1]
+    },
+    {
+        "question": "Les mots de passe peuvent être utilisés pour limiter l’accès à tout ou partie de Cisco IOS. Sélectionnez les modes et interfaces qui peuvent être protégés avec des mots de passe. (Choisissez trois réponses.)",
+        "choices": ["Une interface Ethernet", "Mode de démarrage IOS", "Mode d’exécution privilégié", "Mode de configuration du routeur", "Interface VTY", "Une interface console"],
+        "answers": [2, 4, 5]
+    },
+    {
+        "question": "En essayant de résoudre un problème réseau, un technicien a apporté plusieurs modifications au fichier de configuration du routeur actuel. Les modifications n’ont pas résolu le problème et n’ont pas été enregistrées. Quelle action le technicien peut-il entreprendre pour ignorer les modifications et utiliser le fichier dans la mémoire vive non volatile ?",
+        "choices": ["Exécuter la commande reload sans enregistrer la configuration en cours.", "Exécuter la commande copy startup-config running-config .", "Fermer et rouvrir le logiciel d’émulation de terminal.", "Supprimer le fichier vlan.dat et redémarrer le périphérique."],
+        "answers": [0]
+    },
+    {
+        "question": "En quoi SSH est-il différent de Telnet ?",
+        "choices": ["SSH établit des connexions sur le réseau, alors que Telnet est réservé à un accès hors bande.", "SSH nécessite l’utilisation du programme d’émulation du terminal PuTTY. TeraTerm doit être utilisé pour connecter des terminaux via Telnet.", "SSH sécurise les sessions à distance grâce au chiffrement des messages et à l’authentification des utilisateurs. Telnet n’est pas sécurisé et envoie les messages en clair.", "SSH doit être configuré sur une connexion réseau active, tandis que Telnet sert à se connecter à un terminal à partir d’une connexion de console."],
+        "answers": [2]
+    },
+    {
+        "question": "Citez trois caractéristiques d’une interface virtuelle de commutateur ou SVI. (Choisissez trois propositions.)",
+        "choices": ["C’est une interface spéciale qui permet une connectivité grâce à différents types de support.", "Elle fait office de protocole de sécurité pour protéger les ports de commutateur.", "Par défaut, elle est associée à l’interface VLAN1.", "Elle n’est associée à aucune interface physique sur un commutateur.", "Elle permet de gérer à distance un commutateur.", "Elle est nécessaire pour que n’importe quel terminal puisse établir une connectivité, où qu’il soit."],
+        "answers": [2, 3, 4]
+    },
+    {
+        "question": "Quelle méthode peut être utilisée par deux ordinateurs pour s’assurer que les paquets ne sont pas abandonnés car trop de données sont envoyées trop rapidement ?",
+        "choices": ["Contrôle de flux", "Délai d’attente de la réponse", "méthode d’accès", "encapsulation"],
+        "answers": [0]
+    },
+    {
+        "question": "Quel processus consiste à placer une PDU à l’intérieur d’une autre PDU?",
+        "choices": ["codage", "segmentation", "contrôle de flux", "encapsulation"],
+        "answers": [3]
+    },
+    {
+        "question": "Dans quelle couche du modèle OSI une adresse logique est-elle ajoutée pendant l’encapsulation ?",
+        "choices": ["Couche liaison de données", "Couche physique", "Couche réseau", "Couche transport"],
+        "answers": [2]
+    },
+    {
+        "question": "Quel est l’un des avantages des périphériques réseau utilisant les protocoles standard ouverts ?",
+        "choices": ["L’accès Internet peut être contrôlé par un seul FAI dans chaque secteur.", "La concurrence et l’innovation sont limitées à des types de produits spécifiques.", "Les communications réseau sont restreintes aux transferts de données entre périphériques provenant du même fournisseur.", "Un hôte client et un serveur exécutant différents systèmes d’exploitation peuvent échanger des données correctement."],
+        "answers": [3]
+    },
+    {
+        "question": "Quel terme décrit un type de réseau utilisé par les personnes qui travaillent à la maison ou à partir d’un petit bureau à distance?",
+        "choices": ["extranet", "intranet", "Réseau SOHO", "La couche Internet"],
+        "answers": [2]
+    },
+    {
+        "question": "Un technicien en réseau travaille sur le réseau sans fil dans une clinique médicale. Le technicien configure accidentellement le réseau sans fil afin que les patients puissent voir les données des dossiers médicaux d’autres patients. Laquelle des quatre caractéristiques du réseau a été violée dans cette situation?",
+        "choices": ["Fiabilité", "sécurité", "évolutivité", "Qualité de service (QoS)", "tolérance aux pannes"],
+        "answers": [1]
+    },
+    {
+        "question": "Un utilisateur déploie des fonctionnalités de sécurité sur un réseau de petite entreprise. Quelles deux actions devraient permettre d’atteindre le niveau de sécurité minimum nécessaire pour ce type de réseau ? (Choisissez deux propositions.)",
+        "choices": ["Ajouter un appareil de prévention des intrusions", "Implémenter un pare-feu", "Installer un antivirus", "Implémenter un système de détection des intrusions", "Installer un réseau sans fil"],
+        "answers": [1, 2]
+    },
+    {
+        "question": "Trois protocoles de la couche application font partie de la suite TCP/IP. Lesquels ? (Choisissez trois propositions.)",
+        "choices": ["DHCP", "FTP", "PPP", "ARP", "NAT", "DNS"],
+        "answers": [0, 1, 5]
+    },
+    {
+        "question": "Quel terme décrit un réseau où un ordinateur peut être à la fois client et serveur?",
+        "choices": ["peer-to-peer", "cloud", "BYOD", "Qualité de service"],
+        "answers": [0]
+    },
+    {
+        "question": "A quelle couche OSI une adresse MAC source est-elle ajoutée à une PDU pendant le processus d’encapsulation?",
+        "choices": ["couche transport", "couche liaison de données", "couche application", "couche présentation"],
+        "answers": [1]
+    },
+    {
+        "question": "Dans le modèle TCP/IP, quelle couche permet de router les messages via un interréseau ?",
+        "choices": ["Session", "Internet", "Transport", "Accès réseau"],
+        "answers": [1]
+    },
+    {
+        "question": "Parmi les propositions, laquelle est une caractéristique des messages de multidiffusion ?",
+        "choices": ["Ils doivent faire l’objet d’un accusé de réception.", "Ils sont envoyés vers une destination unique.", "Ils sont envoyés à un groupe d’hôtes spécifique.", "Ils sont envoyés à tous les hôtes d’un réseau."],
+        "answers": [2]
+    },
+    {
+        "question": "A quelle couche OSI une adresse IP source est-elle ajoutée à une PDU pendant le processus d’encapsulation?",
+        "choices": ["couche réseau", "couche liaison de données", "couche application", "couche présentation"],
+        "answers": [0]
+    },
+    {
+        "question": "Dans la commande show running-config , quelle partie de la syntaxe est représentée par running-config ?",
+        "choices": ["la commande", "mot clé", "une invite", "Variable"],
+        "answers": [1]
+    },
+    {
+        "question": "A quelle couche OSI une adresse MAC destination est-elle ajoutée à une PDU pendant le processus d’encapsulation?",
+        "choices": ["couche réseau", "couche liaison de données", "couche transport", "couche application"],
+        "answers": [1]
+    },
+    {
+        "question": "Quel terme décrit le stockage de fichiers personnels sur des serveurs sur Internet pour fournir un accès n’importe où, n’importe quand et sur n’importe quel appareil?",
+        "choices": ["BYOD", "cloud", "réseau convergent", "Qualité de service"],
+        "answers": [1]
+    },
+    {
+        "question": "Quel terme décrit la capacité d’utiliser des appareils personnels sur un réseau d’entreprise ou de campus?",
+        "choices": ["extranet", "intranet", "BYOD", "La couche Internet"],
+        "answers": [2]
+    },
+    {
+        "question": "Quel terme décrit un réseau appartenant à une organisation qui offre un accès sûr et sécurisé aux personnes qui travaillent pour une organisation différente?",
+        "choices": ["cloud", "BYOD", "Qualité de service", "extranet"],
+        "answers": [3]
+    },
+    {
+        "question": "A quelle couche OSI une adresse IP destination est-elle ajoutée à une PDU pendant le processus d’encapsulation?",
+        "choices": ["couche réseau", "couche présentation", "couche transport", "couche application"],
+        "answers": [0]
+    },
+    {
+        "question": "Quel terme décrit une politique qui permet aux périphériques réseau de gérer le flux de données pour donner la priorité à la voix et à la vidéo?",
+        "choices": ["La couche Internet", "Qualité de service", "intranet", "extranet"],
+        "answers": [1]
+    },
+    {
+        "question": "Quel type de trafic réseau nécessite une QoS ?",
+        "choices": ["L’achat en ligne", "wiki", "E-mail", "La vidéoconférence"],
+        "answers": [3]
+    }
+    ]

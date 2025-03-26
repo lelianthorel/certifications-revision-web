@@ -1,0 +1,582 @@
+[
+    {
+        "question": "Un administrateur souhaite créer quatre sous-réseaux à partir de l’adresse réseau 192.168.1.0/24. Quelle est l’adresse réseau et le masque de sous-réseau du deuxième sous-réseau utilisable ?",
+        "choices": [
+            "Sous-réseau 192.168.1.64\nMasque de sous-réseau 255.255.255.192",
+            "Sous-réseau 240.168.1.64\nMasque de sous-réseau 255.255.255.240",
+            "Sous-réseau 192.168.1.32\nMasque de sous-réseau 255.255.255.240",
+            "Sous-réseau 192.168.1.128\nMasque de sous-réseau 255.255.255.192",
+            "Sous-réseau 192.168.1.8\nMasque de sous-réseau 255.255.255.224"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Combien d’adresses d’hôte sont disponibles sur le réseau 192.168.10.128/26 ?",
+        "choices": [
+            "30",
+            "32",
+            "60",
+            "62",
+            "64"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Combien d’adresses d’hôte sont disponibles sur le réseau 172.16.128.0 avec un masque de sous-réseau de 255.255.252.0 ?",
+        "choices": [
+            "510",
+            "512",
+            "1022",
+            "1024",
+            "2046",
+            "2048"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quels trois blocs d’adresses sont définis par RFC 1918 pour une utilisation dans un réseau privé ? (Choisissez trois propositions.)",
+        "choices": [
+            "239.0.0.0/8",
+            "192.168.0.0/16",
+            "10.0.0.0/8",
+            "172.16.0.0/12",
+            "100.64.0.0/14",
+            "169.254.0.0/16"
+        ],
+        "answers": [
+            1, 2, 3
+        ]
+    },
+    {
+        "question": "Un administrateur de site s’occupe d’un réseau particulier sur le site qui doit accueillir 126 hôtes. Quel masque de sous-réseau permettrait de satisfaire le nombre d’hôtes demandé ?",
+        "choices": [
+            "255.255.255.0",
+            "255.255.255.224",
+            "255.255.255.128",
+            "255.255.255.240"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle plage de préfixes d’adresse est réservée à la multidiffusion IPv4 ?",
+        "choices": [
+            "169.254.0.0 – 169.254.255.255",
+            "240.0.0.0 – 254.255.255.255",
+            "224.0.0.0 – 239.255.255.255",
+            "127.0.0.0 – 127.255.255.255"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Un lycée à New York (établissement A) utilise la technologie de vidéoconférence pour établir l’interaction entre ses étudiants et ceux d’un autre lycée (établissement B) en Russie. La vidéoconférence se tient entre deux périphériques finaux via Internet. L’administrateur réseau de l’établissement A configure le périphérique final avec l’adresse IP 209.165.201.10. L’administrateur envoie une requête pour l’adresse IP du périphérique final à l’établissement B et la réponse est 192.168.25.10. Aucun établissement n’utilise de réseau privé virtuel (VPN). L’administrateur sait immédiatement que cette adresse IP ne fonctionnera pas. Pourquoi ?",
+        "choices": [
+            "Il s’agit d’une adresse de bouclage.",
+            "Il s’agit d’une adresse IP privée.",
+            "Il existe un conflit d’adresses IP.",
+            "Il s’agit d’une adresse link-locale."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelles sont les trois adresses publiques valides? (Choisissez trois réponses.)",
+        "choices": [
+            "64.104.78.227",
+            "172.31.1.25",
+            "128.107.12.117",
+            "192.168.1.245",
+            "198.133.219.17",
+            "10.15.250.5"
+        ],
+        "answers": [
+            0, 2, 4
+        ]
+    },
+    {
+        "question": "Un message est envoyé à tous les hôtes sur un réseau distant. De quel type de message s’agit-il ?",
+        "choices": [
+            "multidiffusion",
+            "diffusion dirigée",
+            "diffusion limitée",
+            "monodiffusion"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle adresse est une adresse link-local monodiffusion IPv6 valide?",
+        "choices": [
+            "FEC 8:1::FFFF",
+            "FC 90:5678:4251:FFFF",
+            "FE0A::100:7788:998 F",
+            "FE80::1:4545:6578:ABC1",
+            "FD80::1:1234"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Laquelle de ces adresses est l’abréviation la plus courte de l’adresse IP:3FFE:1044:0000:0000:00AB:0000:0000:0057?",
+        "choices": [
+            "3FFE:1044::00AB::0057",
+            "3FFE:1044:0:0:AB::57",
+            "3FFE:1044:0000:0000:00AB::57",
+            "3FFE:1044:0:0:00AB::0057",
+            "3FFE:1044:0000:0000:00AB::0057",
+            "3FFE:1044::AB::57"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel élément est utilisé dans le processus EUI-64 pour créer un ID d’interface IPv6 sur une interface IPv6 ?",
+        "choices": [
+            "une adresse IPv6 fournie par un serveur DHCPv6",
+            "une adresse hexadécimale 64 bits générée automatiquement",
+            "l’adresse MAC de l’interface compatible IPv6",
+            "une adresse IPv4 configurée sur l’interface"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel est le préfixe de l’adresse d’hôte 2001:DB8:BC15:A:12AB::1/64 ?",
+        "choices": [
+            "2001:DB8:BC15",
+            "2001:DB8:BC15:A",
+            "2001:DB8:BC15:A:1",
+            "2001:DB8:BC15:A:12"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un périphérique IPv6 envoie un paquet de données avec l’adresse de destination FF02::1. Quelle est la cible de ce paquet ?",
+        "choices": [
+            "Uniquement les routeurs IPv6 configurés",
+            "Le périphérique IPv6 sur la liaison qui a été configurée de manière unique avec cette adresse",
+            "Uniquement les serveurs DHCP IPv6",
+            "Tous les périphériques IPv6 sur la liaison locale ou le réseau local"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel préfixe IPv6 est réservé à la communication entre des périphériques d’une même liaison ?",
+        "choices": [
+            "FDFF::/7",
+            "FE80::/10",
+            "2001::/32",
+            "FC00::/7"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type d’adresse IPv6 fait référence à une adresse de monodiffusion qui est affectée à des hôtes multiples ?",
+        "choices": [
+            "adresse locale unique",
+            "anycast",
+            "adresse link-local",
+            "adresse de monodiffusion globale"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Parmi les propositions suivantes, lesquelles correspondent à des types d’adresses de monodiffusion IPv6 ? (Choisissez deux réponses.)",
+        "choices": [
+            "bouclage",
+            "multidiffusion",
+            "link-local",
+            "diffusion",
+            "anycast"
+        ],
+        "answers": [
+            0, 2
+        ]
+    },
+    {
+        "question": "Quel service offre un adressage IPv6 global et dynamique à des périphériques finaux sans utiliser de serveur pour suivre les adresses IPv6 disponibles ?",
+        "choices": [
+            "DHCPv6 sans état",
+            "Adressage IPv6 statique",
+            "SLAAC",
+            "DHCPv6 dynamique"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel protocole prend en charge la configuration automatique des adresses sans état (SLAAC) pour l’allocation dynamique d’adresses IPv6 à un hôte ?",
+        "choices": [
+            "DHCPv6",
+            "ICMPv6",
+            "Protocole UDP",
+            "ARPv6"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un technicien utilise la commande ping 127.0.0.1 . Que teste le technicien ?",
+        "choices": [
+            "La pile TCP/IP sur un hôte réseau",
+            "La connectivité entre deux périphériques Cisco adjacents",
+            "La connectivité entre un PC et la passerelle par défaut",
+            "La connectivité physique d’un PC particulier et du réseau",
+            "La connectivité entre deux PC sur le même réseau"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel protocole la commande traceroute utilise-t-elle pour envoyer et recevoir des requêtes et des réponses d’écho ?",
+        "choices": [
+            "Telnet",
+            "TCP",
+            "ICMP",
+            "SNMP"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle est la notation de longueur du préfixe pour le masque de sous-réseau 255.255.255.224 ?",
+        "choices": [
+            "/26",
+            "/25",
+            "/27",
+            "/28"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel sous-réseau comprend l’adresse 192.168.1.96 en tant qu’adresse d’hôte utilisable ?",
+        "choices": [
+            "192.168.1.32/27",
+            "192.168.1.64/26",
+            "192.168.1.32/28",
+            "192.168.1.64/29"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un hôte transmet une diffusion. Quel (s) hôte (s) recevra(s) t-il?",
+        "choices": [
+            "un groupe d’hôtes spécialement défini",
+            "tous les hôtes du même sous-réseau",
+            "le voisin le plus proche sur le même réseau",
+            "tous les hôtes sur Internet"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel est le format compressé de l’adresse IPv6 2002:0042:0010:c400:0000:0000:0000:0909?",
+        "choices": [
+            "2002:42::25:1090:0:99",
+            "2002:4200::25:1090:0:99",
+            "200:420:110:c4b::910:0:90",
+            "2002:42:10:c400::909"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute une commande ping 192.135.250.103 et reçoit une réponse qui inclut un code de 1 . Que représente ce code?",
+        "choices": [
+            "Adresse inaccessible",
+            "au-delà de la portée de l’adresse source",
+            "communication avec la destination administrativement interdite",
+            "hôte inaccessible"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un administrateur réseau a reçu le préfixe IPv6 2001:DB8::/48 pour la création de sous-réseaux. Supposons que l’administrateur ne crée pas de sous-réseaux dans la partie de l’ID d’interface de l’espace d’adressage, combien de sous-réseaux peut-il créer depuis le préfixe /48 ?",
+        "choices": [
+            "4 096",
+            "16",
+            "256",
+            "65 536"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Sachant que le préfixe d’adresse IPv6 est 2001:db8::/48, quel est le dernier sous-réseau créé si le préfixe de sous-réseau est remplacé par /52 ?",
+        "choices": [
+            "2001:db8:0:f::/52",
+            "2001:db8:0:8000::/52",
+            "2001:db8:0:f000::/52",
+            "2001:db8:0:f00::/52"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel type d’adresse IPv6 est FE80::1 ?",
+        "choices": [
+            "Adresse de monodiffusion globale",
+            "Adresse de multidiffusion",
+            "Adresse link-local",
+            "Adresse de bouclage"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel est le format compressé de l’adresse IPv6 fe80:09ea:0000:2200:0000:0000:0fe0:0290?",
+        "choices": [
+            "fe80:9ea:0:2200::fe0:290",
+            "fe80:9ea0::2020::bf:e0:9290",
+            "fe80:9:20::b000:290",
+            "fe80:9ea0::2020:0:bf:e0:9290"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Combien de bits doivent être empruntés à la partie hôte d’une adresse pour accueillir un routeur avec cinq réseaux connectés ?",
+        "choices": [
+            "Deux",
+            "Cinq",
+            "Quatre",
+            "Trois"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Une entreprise utilise l’adresse réseau 192.168.1.64 avec un masque de sous-réseau de 255.255.255.192. L’entreprise souhaite créer deux sous-réseaux qui contiennent respectivement 10 et 18 hôtes. Quels réseaux permettraient d’y parvenir ? (Choisissez deux réponses.)",
+        "choices": [
+            "192.168.1.128/27",
+            "192.168.1.192/28",
+            "192.168.1.64/27",
+            "192.168.1.16/28",
+            "192.168.1.96/28"
+        ],
+        "answers": [
+            2, 4
+        ]
+    },
+    {
+        "question": "Un hôte transmet une multidiffusion. Quel (s) hôte (s) recevra t-il?",
+        "choices": [
+            "un groupe d’hôtes spécialement défini",
+            "un hôte spécifique",
+            "périphériques réseau directement connectés",
+            "le voisin le plus proche sur le même réseau"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel est l’objectif des messages ICMP ?",
+        "choices": [
+            "Informer les routeurs des modifications de la topologie du réseau",
+            "Contrôler le processus de résolution d’un nom de domaine en adresse IP",
+            "Garantir l’acheminement d’un paquet IP",
+            "Fournir des commentaires sur les transmissions de paquets IP"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute une commande ping fe 80:65 ab:dcc1::100 et reçoit une réponse qui inclut un code de 4 . Que représente ce code?",
+        "choices": [
+            "Protocole inaccessible",
+            "Port inaccessible",
+            "Réseau inaccessible",
+            "hôte inaccessible"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un hôte transmet une diffusion. Quel (s) hôte (s) recevra t-il?",
+        "choices": [
+            "un hôte spécifique",
+            "périphériques réseau directement connectés",
+            "tous les hôtes sur Internet",
+            "tous les hôtes du même sous-réseau"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel est le format compressé de l’adresse IPv6 fe80:0000:0000:0000:0220:0b3f:f0e0:0029 ?",
+        "choices": [
+            "fe80::220:b3f:f0e0:29",
+            "fe80:9ea0::2020::bf:e0:9290",
+            "fe80:9ea:0:2200::fe0:290",
+            "fe80:9ea0::2020:0:bf:e0:9290"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute une commande ping 2001:DB8:face:39::10 et reçoit une réponse qui inclut un code de 3 . Que représente ce code?",
+        "choices": [
+            "Adresse inaccessible",
+            "Protocole inaccessible",
+            "Réseau inaccessible",
+            "hôte inaccessible"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel est le nombre total d’adresses IP d’hôtes utilisables sur un réseau ayant un masque /26 ?",
+        "choices": [
+            "62",
+            "64",
+            "254",
+            "16",
+            "32",
+            "256"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute une commande ping 2001:DB8:face:39::10 et reçoit une réponse qui inclut un code de 2 . Que représente ce code?",
+        "choices": [
+            "au-delà de la portée de l’adresse source",
+            "communication avec la destination administrativement interdite",
+            "Adresse inaccessible",
+            "Aucun route vers la destination"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle adresse IP source un routeur utilise t-il par défaut lorsque la commande traceroute est exécutée ?",
+        "choices": [
+            "une adresse IP de bouclage",
+            "l’adresse IP la plus élevée sur le routeur",
+            "l’adresse IP de l’interface sortante",
+            "l’adresse IP la moins élevée sur le routeur"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel message ICMPv6 est envoyé lorsque le champ de limite le nombre de tronçons IPv6 d’un paquet est décrémenté à zéro et que le paquet ne peut pas être transféré?",
+        "choices": [
+            "Réseau inaccessible",
+            "Port inaccessible",
+            "dépassement du délai",
+            "Protocole inaccessible"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel est le format compressé correct de l’adresse IPv6 2001:0db8:0000:0000:0000:a0b0:0008:0001?",
+        "choices": [
+            "2001:db8:0:1::8:1",
+            "2001:db80:0:1::80:1",
+            "2001:db8::ab8:1:0:1000",
+            "2001:db8::a0b0:8:1"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute une commande ping 198.133.219.8 et reçoit une réponse qui inclut un code de 0 . Que représente ce code?",
+        "choices": [
+            "Protocole inaccessible",
+            "hôte inaccessible",
+            "Port inaccessible",
+            "Réseau inaccessible"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute un traceroute sur IPv6. À quel moment un routeur qui se trouve sur le chemin du périphérique de destination s’arrêterait-il de transmettre le paquet ?",
+        "choices": [
+            "lorsque la valeur du champ Limite le nombre de tronçons atteint 255",
+            "Lorsque le routeur reçoit un message de dépassement de délai ICMP",
+            "Lorsque l’hôte répond par un message de réponse d’écho ICMP",
+            "lorsque la valeur du champ Limite le nombre de tronçons atteint zéro"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel est le format compressé correct de l’adresse IPv6 2001:0db8:0000:0000:0ab8:0001:0000:1000?",
+        "choices": [
+            "2001:db8::ab8:1:0:1000",
+            "2001:db8:0:1::8:1",
+            "2001:db8::a0b0:8:1",
+            "2001:db8:1::ab8:0:1"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un utilisateur exécute une commande ping 2001:db 8:3040:114::88 et reçoit une réponse qui inclut un code de 4 . Que représente ce code?",
+        "choices": [
+            "Port inaccessible",
+            "hôte inaccessible",
+            "Protocole inaccessible",
+            "Réseau inaccessible"
+        ],
+        "answers": [
+            0
+        ]
+    }
+]

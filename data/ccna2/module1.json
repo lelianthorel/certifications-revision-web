@@ -1,0 +1,545 @@
+[
+    {
+       "question": "1. Quelle commande est utilisée pour définir la variable d’environnement BOOT qui définit l’emplacement du fichier d’image IOS sur un commutateur ?",
+       "choices": [
+          "config-register",
+          "confreg",
+          "boot loader",
+          "boot system"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "2. Qu’est-ce qu’un commutateur utilise pour localiser et charger l’image IOS?",
+       "choices": [
+          "Fichier d’image IOS",
+          "Variable d’environnement BOOT",
+          "NVRAM",
+          "Configuration initiale",
+          "POST"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "3. Quel protocole renforce la sécurité des connexions à distance ?",
+       "choices": [
+          "SSH",
+          "HTTP",
+          "NetBEUI",
+          "FTP",
+          "POP"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "4. Quelle caractéristique décrit la commutation cut-through ?",
+       "choices": [
+          "Seules les trames sortantes subissent une vérification d’erreurs.",
+          "Les fragments exempts d’erreurs sont transmis, la commutation se produit ainsi avec une faible latence.",
+          "Les trames sont transmises sans aucune vérification d’erreurs.",
+          "La mise en mémoire tampon est utilisée pour prendre en charge différentes vitesses Ethernet."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "5. Quelle est la différence significative entre un concentrateur (hub) et un commutateur LAN de couche 2 ?",
+       "choices": [
+          "Un concentrateur divise les domaines de collision, et un commutateur divise les domaines de diffusion.",
+          "Chaque port d’un concentrateur est un domaine de collision, et chaque port d’un switch est un domaine de diffusion.",
+          "Un concentrateur étend un domaine de collision et un commutateur divise les domaines de collision.",
+          "Un concentrateur transmet les cadres, et un commutateur transmet uniquement les paquets."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "6. Parmi les propositions concernant les décisions de transfert de trame de commutateur Ethernet ci-après, laquelle est vraie ?",
+       "choices": [
+          "Seules les trames avec des adresses de destination de diffusion sont transmises à tous les ports de commutateurs actifs.",
+          "Le transfert de trame cut-through garantit que les trames non valides sont toujours abandonnées.",
+          "Les décisions de transfert de trame sont basées sur l’adresse MAC et les mappages des ports dans la table CAM.",
+          "Les trames monodiffusion sont toujours transmises indépendamment de l’adresse MAC de destination."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "7. Comment les tampons de commutateur affectent-ils les performances du réseau?",
+       "choices": [
+          "Ils conservent temporairement les données lorsqu’une collision se produit jusqu’à ce que la transmission normale des données reprenne.",
+          "Ils stockent les trames reçues, empêchant ainsi le rejet prématuré des trames en cas de congestion du réseau.",
+          "Ils fournissent une vérification des erreurs sur les données reçues.",
+          "Ils fournissent de la mémoire supplémentaire pour un port particulier en cas d’échec de la négociation automatique de la vitesse ou du duplex."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "8. Quelle caractéristique de commutateur permet de garder le trafic local et de réduire la congestion du réseau?",
+       "choices": [
+          "grands tampons de trame",
+          "Commutation interne rapide",
+          "vitesse de port rapide",
+          "Nombre de ports élevé"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "10. Quelle méthode de commutation garantit que la trame entrante est sans erreur avant le transfert?",
+       "choices": [
+          "Coupure (Cut-Through)",
+          "FCS",
+          "Sans fragmentation (Fragment-Free)",
+          "Stockage et transmission (Store-and-Forward)"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "11. Sur un commutateur configuré avec plusieurs VLAN, quelle commande supprime uniquement le VLAN 100 du commutateur ?",
+       "choices": [
+          "Switch(config-if)# no switchport access vlan 100",
+          "Switch(config-if)# no switchport trunk allowed vlan 100",
+          "Switch# delete flash:vlan.dat",
+          "Switch(config)# no vlan 100"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "13. Un réseau comporte plusieurs VLAN répartis entre plusieurs commutateurs. Que se passe-t-il lorsqu’un périphérique sur le VLAN 20 envoie une trame Ethernet de diffusion ?",
+       "choices": [
+          "Tous les périphériques de tous les VLAN voient la trame.",
+          "Les périphériques du VLAN 20 et le VLAN de gestion voient la trame.",
+          "Seuls les périphériques du VLAN 20 voient la trame.",
+          "Seuls les périphériques connectés au commutateur local voient la trame."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "17. Quelle commande affiche le type d’encapsulation, l’ID de VLAN voix et le mode d’accès du VLAN pour l’interface Fa0/1 ?",
+       "choices": [
+          "show interfaces trunk",
+          "show vlan brief",
+          "show mac address-table interface Fa0/1",
+          "show interfaces Fa0/1 switchport"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "18. Quelles sont les quatre étapes à suivre pour configurer un VLAN voix sur un port de commutation ? (Choisissez quatre réponses.)",
+       "choices": [
+          "Configurer le port de commutation en mode d’accès.",
+          "Ajouter un VLAN voix.",
+          "Configurer l’interface du port de commutation avec des sous-interfaces.",
+          "Configurer l’interface en tant que trunk IEEE 802.1Q.",
+          "Activer le protocole spanning-tree PortFast sur l’interface.",
+          "Assigner un VLAN de données au port de commutation.",
+          "S’assurer que le trafic voix est approuvé et est associé à une valeur de priorité CoS.",
+          "Assigner le VLAN voix au port de commutation."
+       ],
+       "answers": [
+          0, 1, 6, 7
+       ]
+    },
+    {
+       "question": "20. Lors d’un routage d’un grand nombre de VLAN, quels sont les inconvénients de l’utilisation du routage inter-VLAN « Router-on-a-Stick » par rapport au routage inter-VLAN du commutateur multicouche ? (Choisissez deux réponses.)",
+       "choices": [
+          "La méthode « Router-on-a-Stick » nécessite que les sous-interfaces soient configurées sur les mêmes sous-réseaux.",
+          "Un routeur dédié est nécessaire.",
+          "Plusieurs sous-interfaces peuvent affecter le débit du trafic.",
+          "La méthode « Router-on-a-Stick » nécessite plusieurs interfaces physiques sur un routeur.",
+          "Plusieurs interfaces SVI sont nécessaires."
+       ],
+       "answers": [
+          1, 2
+       ]
+    },
+    {
+       "question": "23. Quelle est l’une des caractéristiques d’un port routé sur un commutateur de couche 3 ?",
+       "choices": [
+          "Il prend en charge le trunking.",
+          "Il est généralement utilisé comme liaison WAN.",
+          "Une adresse IP ne peut pas lui être attribuée.",
+          "Il n’est pas attribué à un VLAN."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "24. Un technicien est en train de configurer un nouveau commutateur Cisco 2960. Quel est l’effet de l’émission de la commande BranchSw(config-if)# shutdown ?",
+       "choices": [
+          "Mettre à jour la table d’adresses MAC pour le port associé.",
+          "Enregistrer la configuration active dans la configuration de démarrage.",
+          "Activer une interface de commutation virtuelle ou physique.",
+          "Enregistrer la configuration en cours dans la mémoire NVRAM.",
+          "Désactiver une interface de commutation virtuelle ou physique."
+       ],
+       "answers": [
+          4
+       ]
+    },
+    {
+       "question": "25. Quel type de VLAN est initialement le VLAN de gestion?",
+       "choices": [
+          "VLAN de gestion",
+          "VLAN par défaut",
+          "VLAN données",
+          "VLAN natif"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "28. Quelle solution permettrait à une université de réduire la congestion du réseau causée par des collisions ?",
+       "choices": [
+          "un routeur avec trois ports Ethernet",
+          "un pare-feu qui se connecte à deux fournisseurs Internet",
+          "un commutateur à densité de ports élevée",
+          "un routeur avec deux ports Ethernet"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "29. Quelles sont les deux instructions correctes en ce qui concerne le routage inter-VLAN SVI? (Choisissez deux propositions.)",
+       "choices": [
+          "Il n’y a pas besoin d’une connexion à un routeur.",
+          "La commutation de paquets est plus rapide avec SVI.",
+          "Les interfaces virtuelles prennent en charge les sous-interfaces.",
+          "Les SVIs peuvent être regroupés dans EtherChannels.",
+          "Les SIV éliminent le besoin d’une passerelle par défaut dans les hôtes."
+       ],
+       "answers": [
+          0, 1
+       ]
+    },
+    {
+       "question": "31. Quel type de VLAN est utilisé pour indiquer les trafics non étiquetés passant dans un port agrégé ?",
+       "choices": [
+          "données",
+          "par défaut",
+          "natif",
+          "management"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "32. Au moment de répondre à une demande d’assistance d’un utilisateur, un administrateur réseau émet la commande show vlan brief . Quel résultat s’affiche ?",
+       "choices": [
+          "L’affectation des VLAN et les périphériques qui leur appartiennent en fonction de leur adresse MAC",
+          "L’affectation des VLAN et l’encapsulation de trunking",
+          "L’affectation des VLAN et l’ensemble des ports de commutation qui leur appartiennent",
+          "L’affectation des VLAN et le réseau VLAN natif"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "33. Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches indiquées dans les instructions d’activité et répondez ensuite à la question.",
+       "choices": [
+          "Serveur local",
+          "Serveur de test",
+          "Serveur Cisco",
+          "Serveur de fichiers"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "34. Quelle commande affiche des informations sur le paramètre auto-MDIX pour une interface donnée ?",
+       "choices": [
+          "show controllers",
+          "show processes",
+          "show interfaces",
+          "show running-config"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "35. Si une extrémité d’une connexion Ethernet est configurée en mode full duplex et l’autre extrémité de la connexion est configurée en mode semi-duplex, où seront localisées les collisions tardives ?",
+       "choices": [
+          "Sur l’extrémité de la connexion en mode semi-duplex",
+          "Uniquement sur les interfaces série",
+          "Sur l’extrémité de la connexion en mode full duplex",
+          "Sur les deux extrémités de la connexion"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "36. Quel est l’impact de l’ajout d’un commutateur de couche 2 sur un réseau ?",
+       "choices": [
+          "une augmentation de la taille du domaine de collision",
+          "une augmentation du nombre de collisions de réseaux",
+          "une augmentation de la taille du domaine de diffusion",
+          "une augmentation du nombre de trames ignorées"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "37. Quelles informations sont ajoutées à la table de commutation à partir des trames entrantes ?",
+       "choices": [
+          "Adresse IP de destination et numéro de port entrant",
+          "Adresse MAC de destination et numéro de port entrant",
+          "Adresse MAC source et numéro de port entrant",
+          "Adresse IP source et numéro de port entrant"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "38. Dans quels cas un administrateur doit-il désactiver le protocole DTP tout en gérant un réseau local ? (Choisissez deux réponses.)",
+       "choices": [
+          "Lorsqu’un commutateur voisin utilise le mode DTP dynamic auto",
+          "Lorsqu’un commutateur voisin utilise le mode DTP dynamic desirable",
+          "Pour connecter un commutateur Cisco à un commutateur tiers",
+          "Sur les liaisons qui ne doivent pas être agrégées",
+          "Sur les liaisons qui doivent tenter l’agrégation de manière dynamique"
+       ],
+       "answers": [
+          2, 3
+       ]
+    },
+    {
+       "question": "39. Qu’advient-il des ports du commutateur après la suppression du VLAN auquel ils sont affectés ?",
+       "choices": [
+          "Les ports sont désactivés.",
+          "Les ports cessent de communiquer avec les appareils raccordés.",
+          "Les ports sont placés en mode Trunk.",
+          "Les ports sont affectés au VLAN par défaut, VLAN1."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "40. Un lycée utilise un VLAN15 pour le réseau des travaux pratiques et un VLAN30 pour le réseau du personnel enseignant. Quel élément est nécessaire pour établir la communication entre ces deux VLAN avec une topologie router-on-a-stick ?",
+       "choices": [
+          "Un routeur avec au moins deux interfaces LAN est nécessaire.",
+          "Un commutateur multicouche est nécessaire.",
+          "Deux groupes de commutateurs, chacun avec des ports configurés pour un VLAN.",
+          "Un commutateur avec un port configuré en tant que ligne principale est nécessaire pour se connecter au routeur."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "42. Un technicien est en train de configurer un nouveau commutateur Cisco 2960. Quel est l’effet de l’émission de la commande BranchSw(config-if)# mdix auto ?",
+       "choices": [
+          "Il ajuste automatiquement le port pour permettre aux connexions de périphériques d’utiliser soit un câble direct, soit un câble croisé.",
+          "Il met à jour la table d’adresses MAC pour le port associé.",
+          "Il permet de configurer une adresse IPv6 sur une interface physique de commutateur.",
+          "Il applique une adresse IPv4 à l’interface virtuelle.",
+          "Il applique une adresse IPv6 à l’interface virtuelle."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "43. Quel type de VLAN est conçu pour avoir un retard de moins de 150 ms sur le réseau?",
+       "choices": [
+          "VLAN trunk",
+          "VLAN souhaitable",
+          "VLAN voix",
+          "VLAN de sécurité"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "44. Quelle est la caractéristique d’une interface de bouclage IPv4 sur un routeur IOS Cisco ?",
+       "choices": [
+          "Une seule interface de bouclage peut être active sur un routeur.",
+          "Elle est attribuée à un port physique et peut être connectée à d’autres périphériques.",
+          "C’est une interface logique interne du routeur.",
+          "La commande no shutdown est nécessaire pour configurer l’interface à l’état « UP » (actif)."
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "45. Quelle est la taille minimale pour qu’une trame Ethernet ne soit pas rejetée par le récepteur comme étant incomplète ?",
+       "choices": [
+          "64 octets",
+          "512 octets",
+          "1024 octets",
+          "1500 octets"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "46. Quel type de VLAN ne devrait pas transporter le trafic de gestion vocale et réseau?",
+       "choices": [
+          "VLAN trunk",
+          "VLAN de sécurité",
+          "VLAN données",
+          "VLAN voix"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "50. Un technicien est en train de configurer un nouveau commutateur Cisco 2960. Quel est l’effet de l’émission de la commande BranchSw# configure terminal ?",
+       "choices": [
+          "Il met à jour la table d’adresses MAC pour le port associé.",
+          "Passer en mode de configuration globale.",
+          "Il entre en mode de configuration pour une interface virtuelle de commutateur.",
+          "Il permet de configurer une adresse IPv6 sur une interface physique de commutateur.",
+          "Il applique une adresse IPv4 à l’interface virtuelle."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "51. Quels énoncés décrivent le VLAN natif ? (Choisissez deux réponses.)",
+       "choices": [
+          "Le trafic du VLAN natif n’est pas étiqueté sur la liaison agrégée.",
+          "Le VLAN natif fournit un identificateur commun aux deux extrémités d’une agrégation.",
+          "Ce VLAN est nécessaire pour la gestion à distance du commutateur.",
+          "Conçu pour transporter le trafic généré par les utilisateurs, ce type de VLAN est également appelé VLAN par défaut.",
+          "Le trafic hautement prioritaire, comme le trafic vocal, utilise le VLAN natif."
+       ],
+       "answers": [
+          0, 1
+       ]
+    },
+    {
+       "question": "54. Quel composant de commutateur réduit le temps de traitement des paquets à l’intérieur du commutateur?",
+       "choices": [
+          "processeurs doubles",
+          "Grosses mémoires tampons",
+          "ASIC",
+          "RAM de stockage et de transmission"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "58. Un technicien est en train de configurer un nouveau commutateur Cisco 2960. Quel est l’effet de l’émission de la commande BranchSw(config-if)# exit ?",
+       "choices": [
+          "Retourne au mode de configuration globale.",
+          "Repasse en mode EXEC privilégié.",
+          "Il entre en mode utilisateur.",
+          "Configurer la passerelle par défaut pour le commutateur.",
+          "Enregistrer la configuration active dans la configuration de démarrage."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "59. Quel type de VLAN est utilisé pour séparer le réseau en groupes d’utilisateurs ou d’appareils ?",
+       "choices": [
+          "VLAN natif",
+          "VLAN données",
+          "VLAN voix",
+          "VLAN de gestion"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "60. Après quelle étape de la séquence de démarrage du commutateur le chargeur de démarrage est-il exécuté?",
+       "choices": [
+          "après l’exécution POSTE",
+          "après l’initialisation du système de fichiers flash",
+          "après l’initialisation de l’UC",
+          "après la localisation IOS"
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "61. Le port Fa0/11 d’un commutateur est affecté au VLAN 30. Si la commande no switchport access vlan 30 est saisie sur l’interface Fa0/11, que se passe-t-il ?",
+       "choices": [
+          "Le port Fa0/11 est renvoyé au VLAN 1.",
+          "Le port Fa0/11 est mis hors service.",
+          "Le VLAN 30 est supprimé.",
+          "Un message d’erreur s’affiche."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "62. Quel type de VLAN est configuré spécifiquement pour le trafic réseau tel que SSH, Telnet, HTTPS, HHTP et SNMP?",
+       "choices": [
+          "VLAN de sécurité",
+          "VLAN voix",
+          "VLAN de gestion",
+          "VLAN trunk"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "63. Un technicien est en train de configurer un nouveau commutateur Cisco 2960. Quel est l’effet de l’émission de la commande BranchSw(config-if)# ip address172.18.33.88 255.255.255.0 ?",
+       "choices": [
+          "Il permet de configurer une adresse IPv6 sur une interface physique de commutateur.",
+          "Il met à jour la table d’adresses MAC pour le port associé.",
+          "Il applique une adresse IPv6 à l’interface virtuelle.",
+          "Il applique une adresse IPv4 à l’interface virtuelle.",
+          "Il active une interface de commutation virtuelle ou physique."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "64. Quel type de VLAN prend en charge le trafic non marqué?",
+       "choices": [
+          "VLAN natif",
+          "VLAN de sécurité",
+          "VLAN trunk",
+          "VLAN souhaitable"
+       ],
+       "answers": [
+          0
+       ]
+    }
+ ]

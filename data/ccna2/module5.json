@@ -1,5 +1,31 @@
 [
    {
+      "question": "1. Reportez-vous à l’illustration. PC A envoie une requête au serveur B. Quelle adresse IPv4 est utilisée dans le champ de destination du paquet quand ce dernier sort de PC A ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_182525.jpg",
+      "choices": [
+         "192.168.10.1",
+         "192.168.10.10",
+         "192.168.11.1",
+         "192.168.12.16"
+      ],
+      "answers": [
+         3
+      ]
+   },
+   {
+      "question": "2. Reportez -vous à l’illustration. Quelle adresse MAC de destination R1 utilise-t-il pour concevoir la trame à transférer de R1 vers le serveur B ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_182910.jpg",
+      "choices": [
+         "R1 laisse le champ vide et transmet les données au PC.",
+         "Le paquet est encapsulé dans une trame PPP et R1 ajoute l’adresse de destination PPP à la trame.",
+         "Si l’adresse MAC de destination qui correspond à l’adresse IPv4 n’est pas dans le cache ARP, R1 envoie une requête ARP.",
+         "R1 utilise l’adresse MAC de destination de S1."
+      ],
+      "answers": [
+         
+      ]
+   },
+   {
       "question": "3. Quels sont les deux avantages du routage statique sur le routage dynamique ? (Choisissez deux réponses.)",
       "choices": [
          "Le routage statique se met à l’échelle facilement pour suivre l’évolution des réseaux.",
@@ -22,6 +48,29 @@
       ],
       "answers": [
          3
+      ]
+   },
+   {
+      "question": "5. Reportez-vous à l’illustration. Quelle est la valeur de la distance administrative de la route pour que le routeur R1 atteigne l’adresse IPv6 de destination 2001:DB8:CAFE:4::A ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_183122.jpg",
+      "choices": [
+         "110",
+         "120",
+         "4",
+         "1"
+      ],
+      "answers": [
+         1
+      ]
+   },
+   {
+      "question": "6. Associez la caractéristique au type de routage correspondant. (Les options ne doivent pas être toutes utilisées.)",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_183422-768x491.jpg",
+      "choices": [
+         "CLIQUER ICI POUR PASSER A LA QUESTION SUIVANTE"
+      ],
+      "answers": [
+         0
       ]
    },
    {
@@ -62,6 +111,20 @@
       ]
    },
    {
+      "question": "10. Reportez-vous à l’illustration. Ce réseau comprend deux connexions au FAI, une via le routeur C et une autre via le routeur B. La liaison série entre les routeurs A et C prend en charge le protocole EIGRP et constitue la liaison principale à Internet. Si la liaison principale échoue, l’administrateur a besoin d’une route statique flottante qui évite les recherches récursives de route et les problèmes potentiels de tronçon suivant résultant de la nature à accès multiple du segment Ethernet avec le routeur B. Quel élément l’administrateur doit-il configurer ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_184545.jpg",
+      "choices": [
+         "Créer une route statique entièrement spécifiée pointant vers Fa0/0 avec une distance administrative de 1.",
+         "Créer une route statique pointant vers Fa0/0 avec une distance administrative de 1.",
+         "Créer une route statique entièrement spécifiée pointant vers Fa0/0 avec une distance administrative de 95.",
+         "Créer une route statique pointant vers 10.1.1.1 avec une distance administrative de 95.",
+         "Créer une route statique pointant vers 10.1.1.1 avec une distance administrative de 1."
+      ],
+      "answers": [
+         2
+      ]
+   },
+   {
       "question": "11. Quelle est la caractéristique d’une route statique flottante?",
       "choices": [
          "Lorsqu’il est configuré, il crée une passerelle de dernier recours.​",
@@ -86,7 +149,48 @@
       ]
    },
    {
-      "question": "17. Reportez-vous à la commande. Quel type de route statique IPv6 est configuré dans la présentation ?\nipv6 route 2001:0DB8::/32 2001:0DB8:3000::1",
+      "question": "13. Reportez-vous à l’illustration. La table de routage de R2 est la suivante :\n\nGateway of last resort is not set\n10.0.0.0/30 is subnetted, 2 subnets\nC 10.0.0.0 is directly connected, Serial0/0/0\nC 10.0.0.4 is directly connected, Serial0/0/1\n192.168.10.0/26 is subnetted, 3 subnets\nS 192.168.10.0 is directly connected, Serial0/0/0\nC 192.168.10.64 is directly connected, FastEthernet0/0\nS 192.168.10.128 [1/0] via 10.0.0.6",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_184851.jpg",
+      "choices": [
+         "envoyer le paquet en sortie sur l’interface FastEthernet0/0",
+         "supprimer le paquet",
+         "envoyer le paquet en sortie sur l’interface Serial0/0/0",
+         "envoyer le paquet en sortie sur l’interface Serial0/0/1"
+      ],
+      "answers": [
+         3
+      ]
+   },
+   {
+      "question": "15. Reportez-vous à l’illustration. Pour le réseau 10.0.0.0/8, quelles commandes convertissent l’adresse de tronçon suivant 172.16.40.2 en 192.168.1.2 ? (Choisissez deux réponses.)",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185033.jpg",
+      "choices": [
+         "A(config)# no network 10.0.0.0 255.0.0.0 172.16.40.2",
+         "A(config)# no ip route 10.0.0.0 255.0.0.0 172.16.40.2",
+         "A(config)# ip route 10.0.0.0 255.0.0.0 s0/0/0",
+         "A(config)# no ip address 10.0.0.1 255.0.0.0 172.16.40.2",
+         "A(config)# ip route 10.0.0.0 255.0.0.0 192.168.1.2"
+      ],
+      "answers": [
+         1, 4
+      ]
+   },
+   {
+      "question": "16. Examinez l’illustration. Quelle commande de route statique par défaut permettrait à R1 d’atteindre potentiellement tous les réseaux inconnus sur Internet ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185129.jpg",
+      "choices": [
+         "R1(config)# ipv6 route 2001:db8:32::/64 G0/1 fe80::2",
+         "R1(config)# ipv6 route ::/0 G0/0 fe80::2",
+         "R1(config)# ipv6 route 2001:db8:32::/64 G0/0",
+         "R1(config)# ipv6 route ::/0 G0/1 fe80::2"
+      ],
+      "answers": [
+         3
+      ]
+   },
+   {
+      "question": "17. Reportez-vous à l’illustration. Quel type de route statique IPv6 est configuré dans la présentation ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185222.jpg",
       "choices": [
          "Route statique entièrement spécifiée",
          "route statique flottante",
@@ -95,6 +199,47 @@
       ],
       "answers": [
          3
+      ]
+   },
+   {
+      "question": "18. Examinez l’illustration. L’ingénieur réseau de l’entreprise représentée souhaite utiliser la connexion principale du FAI pour toutes les connexions externes. La connexion de secours du FAI est utilisée uniquement en cas d’échec de la connexion principale. Quel jeu de commandes doit être exécuté pour ce faire ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185258.jpg",
+      "choices": [
+         "ip route 198.133.219.24 255.255.255.252\nip route 64.100.210.80 255.255.255.252 10",
+         "ip route 0.0.0.0 0.0.0.0 s0/0/0\nip route 0.0.0.0 0.0.0.0 s0/1/0 10",
+         "ip route 0.0.0.0 0.0.0.0 s0/0/0\nip route 0.0.0.0 0.0.0.0 s0/1/0",
+         "ip route 198.133.219.24 255.255.255.252\nip route 64.100.210.80 255.255.255.252"
+      ],
+      "answers": [
+         1
+      ]
+   },
+   {
+      "question": "19. Examinez l’illustration. La petite entreprise illustrée utilise le routage statique. Les utilisateurs du LAN de R2 ont signalé un problème de connectivité. Quel est le problème ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185408-768x461.jpg",
+      "choices": [
+         "R1 doit disposer d’une route par défaut vers R2.",
+         "R2 doit disposer d’une route statique vers les LAN de R1.",
+         "R1 et R2 doivent utiliser un protocole de routage dynamique.",
+         "R2 doit disposer d’une route statique vers Internet.",
+         "R1 doit disposer d’une route statique vers le LAN de R2."
+      ],
+      "answers": [
+         4
+      ]
+   },
+   {
+      "question": "20. Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185531-768x334.jpg",
+      "choices": [
+         "Le préfixe réseau est incorrect.",
+         "L’interface est incorrecte.",
+         "R1 et R2 doivent utiliser un protocole de routage dynamique.",
+         "L’adresse du tronçon suivant est incorrecte.",
+         "Le réseau de destination est incorrect."
+      ],
+      "answers": [
+         1
       ]
    },
    {
@@ -107,6 +252,73 @@
       ],
       "answers": [
          3
+      ]
+   },
+   {
+      "question": "21. Reportez-vous à l’illustration. Quelle est la méthode d’installation de la route hôte 2001:DB8:CAFE:4::1/128 dans la table de routage ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185615.jpg",
+      "choices": [
+         "Cette route a été saisie manuellement par un administrateur.",
+         "La route a été enregistrée de manière dynamique à partir d’un autre routeur.",
+         "La route a été créée de manière dynamique par le routeur R1.",
+         "La route a été installée automatiquement pendant la configuration d’une adresse IP sur une interface active."
+      ],
+      "answers": [
+         0
+      ]
+   },
+   {
+      "question": "22. Examinez l’illustration. L’hôte HostA tente de contacter le serveur ServerB. Quels sont les deux énoncés décrivant l’adressage que l’hôte HostA génère dans le cadre de ce processus ? (Choisissez deux réponses.)",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185743.jpg",
+      "choices": [
+         "Une trame dont l’adresse MAC de destination est celle du routeur RouterA.",
+         "Un paquet dont l’adresse IP de destination est celle du serveur ServerB.",
+         "Un paquet dont l’adresse IP de destination est celle du routeur RouterB.",
+         "Une trame dont l’adresse MAC de destination est celle du serveur ServerB.",
+         "Un paquet dont l’adresse IP de destination est celle du routeur RouterA.",
+         "Une trame dont l’adresse MAC de destination est celle du commutateur SwitchA."
+      ],
+      "answers": [
+         0, 1
+      ]
+   },
+   {
+      "question": "23. Examinez l’illustration. Les tests ping de R1 à 10.1.1.2 aboutissent, mais les tests ping de R1 vers n’importe quelle adresse du réseau 192.168.2.0 échouent. Quelle est la cause de ce problème ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194009.jpg",
+      "choices": [
+         "La route statique de 192.168.2.0 n’est pas correctement configurée.",
+         "L’interface série entre les deux routeurs est hors service.",
+         "Il n’existe aucune passerelle de dernier recours sur R1.",
+         "Une route par défaut n’est pas configurée sur R1."
+      ],
+      "answers": [
+         0
+      ]
+   },
+   {
+      "question": "24. Reportez-vous à l’illustration. Un administrateur tente d’installer une route statique par défaut sur le routeur R1 pour atteindre le réseau du site B sur le routeur R2. Après avoir entré la commande de route statique, l’itinéraire n’apparaît toujours pas dans la table de routage du routeur R1. Qu’est-ce qui empêche l’installation de l’itinéraire dans la table de routage?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194052-768x454.jpg",
+      "choices": [
+         "L’adresse du tronçon suivant est incorrecte.",
+         "Le réseau de destination est incorrect.",
+         "Le masque de réseau est incorrect.",
+         "L’interface de sortie est manquante."
+      ],
+      "answers": [
+         0
+      ]
+   },
+   {
+      "question": "25. Reportez-vous à l’illustration. Le routeur Branch a une relation de voisin OSPF avec le routeur HQ sur le réseau 198.51.0.4/30. La liaison réseau 198.51.0.8/30 devrait servir de sauvegarde lorsque la liaison OSPF tombe en panne. La commande flottante statique route ip route 0.0.0.0 0.0.0.0 S0/1/1 100 a été émise sur Branch et maintenant le trafic utilise la liaison de sauvegarde même lorsque la liaison OSPF est en service et fonctionne. Quelle modification doit être apportée à la commande route statique afin que le trafic n’utilise la liaison OSPF que lorsqu’elle est en service?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194221.jpg",
+      "choices": [
+         "Ajoutez l’adresse du voisin de saut suivant, 198.51.0.8.",
+         "Remplacez le réseau de destination par 198.51.0.5.",
+         "Modifiez la distance administrative sur 120.",
+         "Modifiez la distance administrative sur 1."
+      ],
+      "answers": [
+         2
       ]
    },
    {
@@ -134,6 +346,32 @@
       ]
    },
    {
+      "question": "28. Reportez-vous à l’illustration. Quelle solution de routage permettra à PC A et à PC B d’accéder à Internet avec une utilisation minimale de la bande passante du CPU du routeur et du réseau ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194438.jpg",
+      "choices": [
+         "Configurer une route dynamique de R1 vers Edge et une route statique de Edge vers R1.",
+         "Configurer un protocole de routage dynamique entre R1 et Edge et diffuser toutes les routes.",
+         "Configurer une route statique de R1 vers Edge et une route dynamique de Edge vers R1.",
+         "Configurer une route statique par défaut de R1 vers Edge, une route par défaut de Edge vers Internet et une route statique de Edge vers R1."
+      ],
+      "answers": [
+         3
+      ]
+   },
+   {
+      "question": "29. Reportez-vous à l’illustration. Que se passe-t-il lorsque l’administrateur informatique saisit la nouvelle route statique ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194541.jpg",
+      "choices": [
+         "La route 172.16.1.0 associée au protocole RIP est remplacée par la route statique 172.16.1.0.",
+         "La route statique 172.16.1.0 est saisie dans la configuration en cours, mais n’est pas affichée dans la table de routage.",
+         "La route statique 172.16.1.0 est ajoutée aux routes existantes dans la table de routage.",
+         "La route par défaut 0.0.0.0 est remplacée par la route statique 172.16.1.0."
+      ],
+      "answers": [
+         0
+      ]
+   },
+   {
       "question": "30. Quelles sont les informations requises dans une route statique entièrement spécifiée pour éliminer les recherches récurrentes ? (Choisissez deux réponses.)",
       "choices": [
          "l’adresse IP du voisin du tronçon suivant",
@@ -144,6 +382,58 @@
       ],
       "answers": [
          0, 2
+      ]
+   },
+   {
+      "question": "31. Reportez-vous à l’illustration. Quelle commande configure correctement une route statique IPv6 sur R2 pour permettre au trafic de PC2 d’atteindre PC1 sans aucune recherche récursive par le routeur R2 ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194657.jpg",
+      "choices": [
+         "R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/0",
+         "R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/1",
+         "R2(config)# ipv6 route ::/0 2001:db8:32::1",
+         "R2(config)# ipv6 route 2001:db8:10:12::/64 2001:db8:32::1"
+      ],
+      "answers": [
+         0
+      ]
+   },
+   {
+      "question": "32. Reportez-vous à l’illustration. Quelle route statique un technicien informatique doit-il saisir pour créer une route de secours vers le réseau 172.16.1.0 qui sera utilisée uniquement en cas de défaillance de la route principale associée à RIP ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194823.jpg",
+      "choices": [
+         "ip route 172.16.1.0 255.255.255.0 s0/0/0 91",
+         "ip route 172.16.1.0 255.255.255.0 s0/0/0",
+         "ip route 172.16.1.0 255.255.255.0 s0/0/0 121",
+         "ip route 172.16.1.0 255.255.255.0 s0/0/0 111"
+      ],
+      "answers": [
+         2
+      ]
+   },
+   {
+      "question": "33. Un utilisateur signale que PC0 ne peut pas visiter le serveur web www.server.com . Dépannez la configuration réseau pour identifier le problème. Quelle est la cause du problème ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_221912-768x338.jpg",
+      "choices": [
+         "L’adresse du serveur DNS sur PC0 est mal configurée.",
+         "Le routage entre le siège social et le site distant est mal configuré.",
+         "La fréquence d’horloge sur l’une des liaisons série est mal configurée.",
+         "Une interface série du site distant est mal configurée."
+      ],
+      "answers": [
+         1
+      ]
+   },
+   {
+      "question": "34. Examinez l’illustration. Comment le routeur traite-t-il un paquet dont l’adresse IP de destination est 192.168.12.227 ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_222615.jpg",
+      "choices": [
+         "Il envoie le paquet à l’interface GigabitEthernet0/0.",
+         "Il abandonne le paquet.",
+         "Il envoie le paquet à l’interface GigabitEthernet0/1.",
+         "Il envoie le paquet à l’interface Serial0/0/0."
+      ],
+      "answers": [
+         3
       ]
    },
    {
@@ -195,12 +485,52 @@
       ]
    },
    {
+      "question": "39. Examinez l’illustration. Quelle commande permet de configurer une route statique sur R1 afin que le trafic des deux LAN atteigne le réseau distant 2001:db8:1:4::/64 ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223318.jpg",
+      "choices": [
+         "ipv6 route ::/0 serial0/0/0",
+         "ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::2",
+         "ipv6 route 2001:db8:1::/65 2001:db8:1:3::1",
+         "ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::1"
+      ],
+      "answers": [
+         1
+      ]
+   },
+   {
+      "question": "40. Observez le schéma. Quelle commande est utilisée sur le routeur A pour configurer une route statique afin de diriger le trafic du LAN A vers le LAN C ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223412.jpg",
+      "choices": [
+         "A(config)# ip route 192.168.4.0 255.255.255.0 192.168.5.2",
+         "A(config)# ip route 192.168.3.2 255.255.255.0 192.168.4.0",
+         "A(config)# ip route 192.168.4.0 255.255.255.0 192.168.3.2",
+         "A(config)# ip route 192.168.5.0 255.255.255.0 192.168.3.2",
+         "A(config)# ip route 192.168.3.0 255.255.255.0 192.168.3.1"
+      ],
+      "answers": [
+         2
+      ]
+   },
+   {
       "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5\nComment l’administrateur devrait-il tester cette configuration ?",
       "choices": [
          "Supprimer la route de la passerelle par défaut sur le routeur.",
          "Envoyer un message Ping au réseau 192.168.10.0 à l’adresse 10.10.10.2.",
          "Arrêter manuellement l’interface du routeur utilisée comme route principale.",
          "Envoyer un message Ping à une adresse valide du réseau 192.168.10.0/24."
+      ],
+      "answers": [
+         2
+      ]
+   },
+   {
+      "question": "42. Reportez-vous à l’illustration. Quel ensemble de commandes configurera des routes statiques qui permettront aux routeurs Park et Alta de a) transférer des paquets vers chaque réseau local et b) diriger tout autre trafic vers Internet?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223612.jpg",
+      "choices": [
+         "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2\nAlta(config)# ip route 198.18.222.0 255.255.255.255 s0/0/0",
+         "Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2\nAlta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/1",
+         "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2\nAlta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/0",
+         "Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1\nPark(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2"
       ],
       "answers": [
          2
@@ -216,6 +546,16 @@
       ],
       "answers": [
          3
+      ]
+   },
+   {
+      "question": "44. Associer l’entrée de la table de routage à la fonction correspondante. (Les propositions ne doivent pas être toutes utilisées.)",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_235325-768x568.jpg",
+      "choices": [
+         "CLIQUER ICI POUR PASSER A LA QUESTION SUIVANTE"
+      ],
+      "answers": [
+         0
       ]
    },
    {

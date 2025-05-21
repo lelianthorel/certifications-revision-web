@@ -22,7 +22,7 @@
          "R1 utilise l’adresse MAC de destination de S1."
       ],
       "answers": [
-         
+         2
       ]
    },
    {
@@ -149,7 +149,7 @@
       ]
    },
    {
-      "question": "13. Reportez-vous à l’illustration. La table de routage de R2 est la suivante :\n\nGateway of last resort is not set\n10.0.0.0/30 is subnetted, 2 subnets\nC 10.0.0.0 is directly connected, Serial0/0/0\nC 10.0.0.4 is directly connected, Serial0/0/1\n192.168.10.0/26 is subnetted, 3 subnets\nS 192.168.10.0 is directly connected, Serial0/0/0\nC 192.168.10.64 is directly connected, FastEthernet0/0\nS 192.168.10.128 [1/0] via 10.0.0.6",
+      "question": "13. Reportez-vous à l’illustration. La table de routage de R2 est la suivante :<br><br>Gateway of last resort is not set<br>10.0.0.0/30 is subnetted, 2 subnets<br>C 10.0.0.0 is directly connected, Serial0/0/0<br>C 10.0.0.4 is directly connected, Serial0/0/1<br>192.168.10.0/26 is subnetted, 3 subnets<br>S 192.168.10.0 is directly connected, Serial0/0/0<br>C 192.168.10.64 is directly connected, FastEthernet0/0<br>S 192.168.10.128 [1/0] via 10.0.0.6<br><br>Quelle opération le routeur R2 effectue sur un paquet destiné à 192.168.10.129 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_184851.jpg",
       "choices": [
          "envoyer le paquet en sortie sur l’interface FastEthernet0/0",
@@ -205,10 +205,10 @@
       "question": "18. Examinez l’illustration. L’ingénieur réseau de l’entreprise représentée souhaite utiliser la connexion principale du FAI pour toutes les connexions externes. La connexion de secours du FAI est utilisée uniquement en cas d’échec de la connexion principale. Quel jeu de commandes doit être exécuté pour ce faire ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185258.jpg",
       "choices": [
-         "ip route 198.133.219.24 255.255.255.252\nip route 64.100.210.80 255.255.255.252 10",
-         "ip route 0.0.0.0 0.0.0.0 s0/0/0\nip route 0.0.0.0 0.0.0.0 s0/1/0 10",
-         "ip route 0.0.0.0 0.0.0.0 s0/0/0\nip route 0.0.0.0 0.0.0.0 s0/1/0",
-         "ip route 198.133.219.24 255.255.255.252\nip route 64.100.210.80 255.255.255.252"
+         "ip route 198.133.219.24 255.255.255.252<br>ip route 64.100.210.80 255.255.255.252 10",
+         "ip route 0.0.0.0 0.0.0.0 s0/0/0<br>ip route 0.0.0.0 0.0.0.0 s0/1/0 10",
+         "ip route 0.0.0.0 0.0.0.0 s0/0/0<br>ip route 0.0.0.0 0.0.0.0 s0/1/0",
+         "ip route 198.133.219.24 255.255.255.252<br>ip route 64.100.210.80 255.255.255.252"
       ],
       "answers": [
          1
@@ -322,7 +322,7 @@
       ]
    },
    {
-      "question": "26. Quelle caractéristique complète l’énoncé suivant ?",
+      "question": "26. Quelle caractéristique complète l’énoncé suivant ?<br><br>Lorsqu’ une route statique IPv6 est configurée, l’installation de la route peut être vérifiée avec…",
       "choices": [
          "la commande « show ipv6 route static ».",
          "la commande “ipv6 unicast-routing”.",
@@ -334,7 +334,7 @@
       ]
    },
    {
-      "question": "27. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.139.244 ?\nLa passerelle de dernier recours n'est pas configurée.\n192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks\nO 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0\nO 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1\nO 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0\nC 192.168.139.192/27 is directly connected, GigabitEthernet0/0\nL 192.168.139.193/27 is directly connected, GigabitEthernet0/0\nC 192.168.139.224/27 is directly connected, GigabitEthernet0/1\nL 192.168.139.225/27 is directly connected, GigabitEthernet0/1\n192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks\nC 192.168.70.0/30 is directly connected, Serial0/0/0\nL 192.168.70.2/32 is directly connected, Serial0/0/0\nC 192.168.70.4/30 is directly connected, Serial0/0/1\nL 192.168.70.5/32 is directly connected, Serial0/0/1\nS 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0\nR1#",
+      "question": "27. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.139.244 ?<br>La passerelle de dernier recours n'est pas configurée.<br>192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0<br>O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1<br>O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0<br>C 192.168.139.192/27 is directly connected, GigabitEthernet0/0<br>L 192.168.139.193/27 is directly connected, GigabitEthernet0/0<br>C 192.168.139.224/27 is directly connected, GigabitEthernet0/1<br>L 192.168.139.225/27 is directly connected, GigabitEthernet0/1<br>192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 192.168.70.0/30 is directly connected, Serial0/0/0<br>L 192.168.70.2/32 is directly connected, Serial0/0/0<br>C 192.168.70.4/30 is directly connected, Serial0/0/1<br>L 192.168.70.5/32 is directly connected, Serial0/0/1<br>S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Serial0/0/1",
          "GigabitEthernet0/0",
@@ -512,7 +512,7 @@
       ]
    },
    {
-      "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5\nComment l’administrateur devrait-il tester cette configuration ?",
+      "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Comment l’administrateur devrait-il tester cette configuration ?",
       "choices": [
          "Supprimer la route de la passerelle par défaut sur le routeur.",
          "Envoyer un message Ping au réseau 192.168.10.0 à l’adresse 10.10.10.2.",
@@ -527,17 +527,17 @@
       "question": "42. Reportez-vous à l’illustration. Quel ensemble de commandes configurera des routes statiques qui permettront aux routeurs Park et Alta de a) transférer des paquets vers chaque réseau local et b) diriger tout autre trafic vers Internet?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223612.jpg",
       "choices": [
-         "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2\nAlta(config)# ip route 198.18.222.0 255.255.255.255 s0/0/0",
-         "Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2\nAlta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/1",
-         "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2\nAlta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/0",
-         "Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1\nPark(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1\nAlta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2"
+         "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1<br>Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2<br>Alta(config)# ip route 198.18.222.0 255.255.255.255 s0/0/0",
+         "Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1<br>Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2<br>Alta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/1",
+         "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1<br>Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2<br>Alta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/0",
+         "Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1<br>Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1<br>Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2"
       ],
       "answers": [
          2
       ]
    },
    {
-      "question": "43. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.19.115.206 ?\nLa passerelle de dernier recours n'est pas configurée.\n172.19.115.0/26 is variously subnetted, 7 subnets, 3 masks\nO 172.19.115.0/26 [110/10] via 172.19.39.1, 00:00:24, Serial0/0/0\nO 172.19.115.64/26 [110/20] via 172.19.39.6, 00:00:56, Serial 0/0/1\nO 172.19.115.128/26 [110/10] via 172.19.39.1, 00:00:24, Serial 0/0/0\nC 172.19.115.192/27 is directly connected, GigabitEthernet0/0\nL 172.19.115.193/27 is directly connected, GigabitEthernet0/0\nC 172.19.115.224/27 is directly connected, GigabitEthernet0/1\nL 172.19.115.225/27 is directly connected, GigabitEthernet0/1\n172.19.39.0/24 is variably subnetted, 4 subnets, 2 masks\nC 172.19.39.0/30 is directly connected, Serial0/0/0\nL 172.19.39.2/32 is directly connected, Serial0/0/0\nC 172.19.39.4/30 is directly connected, Serial0/0/1\nL 172.19.39.5/32 is directly connected, Serial0/0/1\nS 172.19.40.0/26 [1/0] via 172.19.39.1, 00:00:24, Serial0/0/0\nR1#",
+      "question": "43. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.19.115.206 ?<br>La passerelle de dernier recours n'est pas configurée.<br>172.19.115.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.19.115.0/26 [110/10] via 172.19.39.1, 00:00:24, Serial0/0/0<br>O 172.19.115.64/26 [110/20] via 172.19.39.6, 00:00:56, Serial 0/0/1<br>O 172.19.115.128/26 [110/10] via 172.19.39.1, 00:00:24, Serial 0/0/0<br>C 172.19.115.192/27 is directly connected, GigabitEthernet0/0<br>L 172.19.115.193/27 is directly connected, GigabitEthernet0/0<br>C 172.19.115.224/27 is directly connected, GigabitEthernet0/1<br>L 172.19.115.225/27 is directly connected, GigabitEthernet0/1<br>172.19.39.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.19.39.0/30 is directly connected, Serial0/0/0<br>L 172.19.39.2/32 is directly connected, Serial0/0/0<br>C 172.19.39.4/30 is directly connected, Serial0/0/1<br>L 172.19.39.5/32 is directly connected, Serial0/0/1<br>S 172.19.40.0/26 [1/0] via 172.19.39.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Le paquet prend la passerelle de dernier recours.",
          "GigabitEthernet0/1",
@@ -559,7 +559,7 @@
       ]
    },
    {
-      "question": "46. Quelle caractéristique complète l’énoncé suivant ?\nLorsqu’ une route statique IPv6 est configurée, en tant que route de sauvegarde vers une route statique dans la table de routage, la commande « distance » est utilisée avec…",
+      "question": "46. Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, en tant que route de sauvegarde vers une route statique dans la table de routage, la commande « distance » est utilisée avec…",
       "choices": [
          "la commande « show ipv6 route static ».",
          "un itinéraire hôte de destination avec un préfixe /128.",
@@ -571,7 +571,7 @@
       ]
    },
    {
-      "question": "45. Prenez la commande suivante : ip route 192.168.10.0 255.255.255.0 10.10.10.2 5\nQuelle route devrait être hors service pour que cette route statique apparaisse dans la table de routage ?",
+      "question": "45. Prenez la commande suivante : ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Quelle route devrait être hors service pour que cette route statique apparaisse dans la table de routage ?",
       "choices": [
          "une route par défaut",
          "une route statique vers le réseau 192.168.10.0/24",
@@ -583,7 +583,7 @@
       ]
    },
    {
-      "question": "47. Référez-vous à l’exposition. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.18.109.152 ?\nLa passerelle de dernier recours n'est pas configurée.\n172.18.109.0/26 is variously subnetted, 7 subnets, 3 masks\nO 172.18.109.0/26 [110/10] via 172.18.32.1, 00:00:24, Serial0/0/0\nO 172.18.109.64/26 [110/20] via 172.18.32.6, 00:00:56, Serial 0/0/1\nO 172.18.109.128/26 [110/10] via 172.18.32.1, 00:00:24, Serial 0/0/0\nC 172.18.109.192/27 is directly connected, GigabitEthernet0/0\nL 172.18.109.193/27 is directly connected, GigabitEthernet0/0\nC 172.18.109.224/27 is directly connected, GigabitEthernet0/1\nL 172.18.109.225/27 is directly connected, GigabitEthernet0/1\n172.18.32.0/24 is variably subnetted, 4 subnets, 2 masks\nC 172.18.32.0/30 is directly connected, Serial0/0/0\nL 172.18.32.2/32 is directly connected, Serial0/0/0\nC 172.18.32.4/30 is directly connected, Serial0/0/1\nL 172.18.32.5/32 is directly connected, Serial0/0/1\nS 172.18.33.0/26 [1/0] via 172.18.32.1, 00:00:24, Serial0/0/0\nR1#",
+      "question": "47. Référez-vous à l’exposition. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.18.109.152 ?<br>La passerelle de dernier recours n'est pas configurée.<br>172.18.109.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.18.109.0/26 [110/10] via 172.18.32.1, 00:00:24, Serial0/0/0<br>O 172.18.109.64/26 [110/20] via 172.18.32.6, 00:00:56, Serial 0/0/1<br>O 172.18.109.128/26 [110/10] via 172.18.32.1, 00:00:24, Serial 0/0/0<br>C 172.18.109.192/27 is directly connected, GigabitEthernet0/0<br>L 172.18.109.193/27 is directly connected, GigabitEthernet0/0<br>C 172.18.109.224/27 is directly connected, GigabitEthernet0/1<br>L 172.18.109.225/27 is directly connected, GigabitEthernet0/1<br>172.18.32.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.18.32.0/30 is directly connected, Serial0/0/0<br>L 172.18.32.2/32 is directly connected, Serial0/0/0<br>C 172.18.32.4/30 is directly connected, Serial0/0/1<br>L 172.18.32.5/32 is directly connected, Serial0/0/1<br>S 172.18.33.0/26 [1/0] via 172.18.32.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Aucun, le paquet est abandonné.",
          "Serial0/0/0",
@@ -607,7 +607,7 @@
       ]
    },
    {
-      "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5\nQue signifie le 5 à la fin de la commande?",
+      "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Que signifie le 5 à la fin de la commande?",
       "choices": [
          "nombre maximal de sauts sur le réseau 192.168.10.0/24",
          "Interface de sortie",
@@ -619,7 +619,7 @@
       ]
    },
    {
-      "question": "Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.3.86.2 ?\n10.3.86.0/26 est diversement sous-réseau, 7 sous-réseaux, 3 masques\nO 10.3.86.0/26 [110/10] via 10.3.2.1, 00:00:24, Serial0/0/0\nO 10.3.86.64/26 [110/20] via 10.3.2.6, 00:00:56, Série 0/0/1\nO 10.3.86.128/26 [110/10] via 10.3.2.1, 00:00:24, Série 0/0\nC 10.3.86.192/27 est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté,\nPARTIALURLPLACEHOLDER est variable sous-réseau, 4 sous-réseaux, 2 masques\nC 10.3.2.0/30 est directement connecté, Serial0/0/0\nL 10.3.2.2/32 est directement connecté, Serial0/0/0\nC 10.3.2.4/30 est directement connecté, Serial0/0/1\nL 10.3.2.5/32 est directement connecté, Serial0/0/1\nS 10.3.3.0/26 [1/0 ] via 10.3.2.1, 00:00:24, Serial0/0/0\nR1#",
+      "question": "Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.3.86.2 ?<br>10.3.86.0/26 est diversement sous-réseau, 7 sous-réseaux, 3 masques<br>O 10.3.86.0/26 [110/10] via 10.3.2.1, 00:00:24, Serial0/0/0<br>O 10.3.86.64/26 [110/20] via 10.3.2.6, 00:00:56, Série 0/0/1<br>O 10.3.86.128/26 [110/10] via 10.3.2.1, 00:00:24, Série 0/0<br>C 10.3.86.192/27 est directement connecté, PARTIALURLPLACEHOLDER<br>L PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER<br>C PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER<br>L PARTIALURLPLACEHOLDER est directement connecté,<br>PARTIALURLPLACEHOLDER est variable sous-réseau, 4 sous-réseaux, 2 masques<br>C 10.3.2.0/30 est directement connecté, Serial0/0/0<br>L 10.3.2.2/32 est directement connecté, Serial0/0/0<br>C 10.3.2.4/30 est directement connecté, Serial0/0/1<br>L 10.3.2.5/32 est directement connecté, Serial0/0/1<br>S 10.3.3.0/26 [1/0 ] via 10.3.2.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Serial0/0/1",
          "Serial0/0/0",
@@ -631,7 +631,7 @@
       ]
    },
    {
-      "question": "51. Quelle caractéristique complète l’énoncé suivant ?\nLorsqu’ une route statique IPv6 est configurée, il est d’abord nécessaire de configurer…",
+      "question": "51. Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, il est d’abord nécessaire de configurer…",
       "choices": [
          "la commande “ipv6 unicast-routing”.",
          "l’adresse de saut suivant de deux routeurs adjacents différents.",
@@ -643,7 +643,7 @@
       ]
    },
    {
-      "question": "52. Quelle caractéristique complète l’énoncé suivant ?\nLorsqu’ une route statique IPv6 est configurée, une configuration entièrement spécifiée doit être utilisée avec…",
+      "question": "52. Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, une configuration entièrement spécifiée doit être utilisée avec…",
       "choices": [
          "la commande “ipv6 unicast-routing”.",
          "l’adresse de saut suivant de deux routeurs adjacents différents.",
@@ -655,7 +655,7 @@
       ]
    },
    {
-      "question": "53. Se référer à la pièce jointe. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.25.128.244 ?\nLa passerelle de dernier recours n'est pas configurée.\n172.25.128.0/26 est diversement sous-réseau, 7 sous-réseaux, 3 masques\nO 172.25.128.0/26 [110/10] via 172.25.56.1, 00:00:24, Serial0/0/0\nO 172.25.128.64/26 [110/20] via 172.25.56.6, 00:00:56, Série 0/0/1\nO 172.25.128.128/26 [110/10] via 172.525.56.1 00:00:24, Série 0/0/0\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\n172.25.56.0/24 est diversement sous-réseau, 4 sous-réseaux, 2 masques\nC 172.25.56.0/30 est directement connecté, Serial0/0/0\nL 172.25.56.2/32 est directement connecté, Serial0/0/0\nC 172.25.56.4/30 est directement connecté, Serial0/0/1\nL 172.25.56.5/32 est directement connecté connecté, Serial0/0/1\nS 172.25.57.0/26 [1/0] via 172.25.56.1, 00:00:24, Serial0/0/0\nR1#",
+      "question": "53. Se référer à la pièce jointe. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.25.128.244 ?<br>Gateway of last resort is not set.<br>172.25.128.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.25.128.0/26 [110/10] via 172.25.56.1, 00:00:24, Serial0/0/0<br>O 172.25.128.64/26 [110/20] via 172.25.56.6, 00:00:56, Serial 0/0/1<br>O 172.25.128.128/26 [110/10] via 172.25.56.1, 00:00:24, Serial 0/0/0<br>C 172.25.128.192/27 is directly connected, GigabitEthernet0/0<br>L 172.25.128.193/27 is directly connected, GigabitEthernet0/0<br>C 172.25.128.224/27 is directly connected, GigabitEthernet0/1<br>L 172.25.128.225/27 is directly connected, GigabitEthernet0/1<br>172.25.56.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.25.56.0/30 is directly connected, Serial0/0/0<br>L 172.25.56.2/32 is directly connected, Serial0/0/0<br>C 172.25.56.4/30 is directly connected, Serial0/0/1<br>L 172.25.56.5/32 is directly connected, Serial0/0/1<br>S 172.25.57.0/26 [1/0] via 172.25.56.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "GigabitEthernet0/0",
          "GigabitEthernet0/1",
@@ -667,7 +667,7 @@
       ]
    },
    {
-      "question": "54. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.55.99.78 ?\nLa passerelle de dernier recours n'est pas configurée.\n10.55.99.0/26 est diversement sous-réseau, 7 sous-réseaux, 3 masques\nO 10.55.99.0/26 [110/10] via 10.55.18.1, 00:00:24, Serial0/0/0\nO 10.55.99.64/26 [110/20] via 10.55.18.6, 00:00:56, Série 0/0/1\nO 10.55.99.128/26 [110/10] via 10.55.18.1, 00:00:24, Série 0/0/0\nC 10.55.99.192/27 est directement connecté, Gigabitethernet0/0\nL 10.55.99.193/27 est directement connecté, Gigabitethernet0/0\nC 10.55.99.224/27 est directement connecté, Gigabitethernet0/1\nL 10.55.99.225/27 est directement connecté, Gigabitethernet0/1\n10 .55.18.0/24 est sous-réseau variable, 4 sous-réseaux, 2 masques\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nS 10.55.19.0/26 [1/0] via 10.55.18.1, 00:00:24, Série 0/0/0\nR1#",
+      "question": "54. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.55.99.78 ?<br>Gateway of last resort is not set.<br>10.55.99.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 10.55.99.0/26 [110/10] via 10.55.18.1, 00:00:24, Serial0/0/0<br>O 10.55.99.64/26 [110/20] via 10.55.18.6, 00:00:56, Serial 0/0/1<br>O 10.55.99.128/26 [110/10] via 10.55.18.1, 00:00:24, Serial 0/0/0<br>C 10.55.99.192/27 is directly connected, GigabitEthernet0/0<br>L 10.55.99.193/27 is directly connected, GigabitEthernet0/0<br>C 10.55.99.224/27 is directly connected, GigabitEthernet0/1<br>L 10.55.99.225/27 is directly connected, GigabitEthernet0/1<br>10.55.18.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 10.55.18.0/30 is directly connected, Serial0/0/0<br>L 10.55.18.2/32 is directly connected, Serial0/0/0<br>C 10.55.18.4/30 is directly connected, Serial0/0/1<br>L 10.55.18.5/32 is directly connected, Serial0/0/1<br>S 10.55.19.0/26 [1/0] via 10.55.18.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Serial0/0/1",
          "GigabitEthernet0/1",
@@ -679,7 +679,7 @@
       ]
    },
    {
-      "question": "55. Quelle caractéristique complète l’énoncé suivant?",
+      "question": "55. Quelle caractéristique complète l’énoncé suivant?<br>Lorsqu’ une route statique IPv6 est configurée, il est possible que la même adresse lien-local IPv6 soit utilisée pour…",
       "choices": [
          "une distance administrative de 2.",
          "la commande “ipv6 unicast-routing”.",
@@ -691,7 +691,7 @@
       ]
    },
    {
-      "question": "56. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.71.52 ?\nLa passerelle de dernier recours n'est pas configurée.\n192.168.139.0/26 est diversement sous-réseau, 7 sous-réseaux, 3 masques\nO 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0\nO 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Série 0/0/1\nO 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0\nC 192.168.139.192/27 est directement connecté, GigabiteThernet0/0\nL 192.168.139.193/27 est directement connecté, GigabiteThernet0/0\nC 192.168.139.224/27 est directement connecté, GigabiteThernet0/1\nL 192.168.139.225/27 est directement connecté, GigabiteThernet0/1\nPARTIALURLPLACEHOLDER est diversement sous-réseau, 4 sous-réseaux, 2 masques\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nC PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER\nL 192. 168.70.5/32 est directement connecté, PARTIALURLPLACEHOLDER\nS PARTIALURLPLACEHOLDER [1/0] via 192.168.70.1, 00:00:24, PARTIALURLPLACEHOLDER\nR1#",
+      "question": "56. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.71.52 ?<br>Gateway of last resort is not set.<br>192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0<br>O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1<br>O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0<br>C 192.168.139.192/27 is directly connected, GigabitEthernet0/0<br>L 192.168.139.193/27 is directly connected, GigabitEthernet0/0<br>C 192.168.139.224/27 is directly connected, GigabitEthernet0/1<br>L 192.168.139.225/27 is directly connected, GigabitEthernet0/1<br>192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 192.168.70.0/30 is directly connected, Serial0/0/0<br>L 192.168.70.2/32 is directly connected, Serial0/0/0<br>C 192.168.70.4/30 is directly connected, Serial0/0/1<br>L 192.168.70.5/32 is directly connected, Serial0/0/1<br>S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Le paquet prend la passerelle de dernier recours.",
          "GigabitEthernet0/1",

@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const ccna = params.get('ccna');
 const module = params.get('module');
 
-document.getElementById("quiz-title").textContent = `Quiz ${ccna.toUpperCase()} - ${module}`;
+document.getElementById("quiz-title").innerHTML = `Quiz ${ccna.toUpperCase()} - ${module}`;
 
 let questions = [];
 let current = 0;

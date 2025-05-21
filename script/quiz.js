@@ -42,7 +42,7 @@ fetch(`https://xn--vgtarien-b1ab.fr/data/${ccna}/${module}.json`)
 function loadQuestion() {
   const q = questions[current];
   selectedIndices = [];
-  questionText.textContent = q.question;
+  questionText.innerHTML = q.question;
   choicesBox.innerHTML = "";
   resultBox.classList.add("d-none");
 
@@ -60,7 +60,7 @@ function loadQuestion() {
   q.choices.forEach((choice, index) => {
     const btn = document.createElement("button");
     btn.className = "btn btn-outline-secondary choice-btn";
-    btn.textContent = choice;
+    btn.innerHTML = choice;
     btn.dataset.index = index;
     btn.onclick = () => toggleSelect(btn);
     choicesBox.appendChild(btn);

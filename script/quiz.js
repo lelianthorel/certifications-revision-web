@@ -22,7 +22,7 @@ const scoreText = document.getElementById("score-text");
 const mistakeList = document.getElementById("mistake-list");
 const quizSection = document.getElementById("quiz-section");
 
-fetch(`https://xn--vgtarien-b1ab.fr/data/${ccna}/${module}.json`)
+fetch(`https://ccna-revision.fr/data/${ccna}/${module}.json`)
   .then(res => res.json())
   .then(data => {
     questions = data;

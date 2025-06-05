@@ -1211,7 +1211,7 @@
    },
    {
       "question": "91. Reportez-vous à l’illustration. Quelle opération effectue le routeur R1 sur un paquet associé à une adresse IPv6 de destination 2001:db8:cafe:5::1 ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163433.png",
       "choices": [
          "supprimer le paquet",
          "transmettre le paquet en sortie sur Serial0/0/0",
@@ -1250,7 +1250,7 @@
    },
    {
       "question": "94. Reportez-vous à l’illustration. Un administrateur réseau configure le routeur R1 pour l’attribution d’adresse IPv6. Sur la base de la configuration partielle, quel système d’attribution d’adresses IPv6 global monodiffusion l’administrateur a-t-il l’intention de mettre en œuvre ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163717.png",
       "choices": [
          "configuration manuelle",
          "SLAAC",
@@ -1263,7 +1263,7 @@
    },
    {
       "question": "95. Examinez l’illustration. Un administrateur réseau vérifie la configuration du commutateur S1. Quel protocole a été implémenté pour regrouper plusieurs ports physiques en une liaison logique ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163739.png",
       "choices": [
          "DTP",
          "STP",
@@ -1477,7 +1477,7 @@
    },
    {
       "question": "111. Examinez l’illustration. Un administrateur réseau configure un routeur comme serveur DHCPv6. L’administrateur exécute une commande show ipv6 dhcp pool pour vérifier la configuration. Parmi les propositions suivantes, laquelle décrit la raison pour laquelle le nombre de clients actifs est 0 ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/i210895v1n1_210895.jpg",
       "choices": [
          "Aucune plage d’adresses IPv6 n’est spécifiée pour la configuration du pool DHCP IPv6.",
          "Aucun client n’a encore communiqué avec le serveur DHCPv6.",
@@ -1615,7 +1615,7 @@
    },
    {
       "question": "121. Reportez-vous à l’illustration. Quelle instruction indiquée dans le résultat permet au routeur R1 de répondre aux demandes DHCPv6 sans état ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA-2-v7-exam-answers-56.png",
       "choices": [
          "prefix-delegation 2001:DB8:8::/48 00030001000E84244E70",
          "ipv6 unicast-routing",
@@ -1869,7 +1869,7 @@
    },
    {
       "question": "95. Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage inter-VLAN. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. Sur la base de la sortie, quelle est la cause possible du problème ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
       "choices": [
          "Gi0/0 n’est pas configuré comme port de jonction.",
          "L’interface de commande GigabitEthernet0/0.5 a été saisie de manière incorrecte.",

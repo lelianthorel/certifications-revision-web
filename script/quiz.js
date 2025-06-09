@@ -12,7 +12,7 @@ let wrongAnswers = [];
 let selectedIndices = [];
 
 const questionText = document.getElementById("question-text");
-const questionImage = document.getElementById("question-image"); // ✅ pour l'image
+const questionImage = document.getElementById("question-image");
 const choicesBox = document.getElementById("choices");
 const resultBox = document.getElementById("result-box");
 const feedback = document.getElementById("feedback");
@@ -22,10 +22,18 @@ const scoreText = document.getElementById("score-text");
 const mistakeList = document.getElementById("mistake-list");
 const quizSection = document.getElementById("quiz-section");
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 fetch(`https://ccna-revision.fr/data/${ccna}/${module}.json`)
   .then(res => res.json())
   .then(data => {
     questions = data;
+    shuffleArray(questions);
     total = questions.length;
     loadQuestion();
   })
@@ -46,10 +54,9 @@ function loadQuestion() {
   choicesBox.innerHTML = "";
   resultBox.classList.add("d-none");
 
-  // ✅ Affichage conditionnel de l'image
+  // Affichage conditionnel de l'image
   console.log(q);
   if (q.image) {
-
     questionImage.src = q.image;
     questionImage.classList.remove("d-none");
   } else {
@@ -165,6 +172,7 @@ function restartQuiz() {
   current = 0;
   score = 0;
   wrongAnswers = [];
+  shuffleArray(questions);
   loadQuestion();
   recapBox.classList.add("d-none");
   quizSection.classList.remove("d-none");

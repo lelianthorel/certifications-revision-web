@@ -1027,7 +1027,7 @@
          "Phrase secrète de l’utilisateur"
       ],
       "answers": [
-         3
+         0
       ]
    },
    {
@@ -1142,7 +1142,7 @@
    },
    {
       "question": "86. Examinez l’illustration. R1 a été configuré comme illustré. Cependant, PC1 ne parvient pas à recevoir d’adresse IPv4. Quel est le problème ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163055.png",
       "choices": [
          "La commande ip address dhcp n’a pas été exécutée sur l’interface Gi0/1.",
          "R1 n’est pas configuré comme serveur DHCPv4.",
@@ -1181,7 +1181,7 @@
    },
    {
       "question": "89. Reportez-vous à l’illustration. Actuellement, le routeur R1 utilise une route EIGRP enregistrée via Branch2 pour atteindre le réseau 10.10.0.0/16. Quelle route statique flottante crée une route de secours vers le réseau 10.10.0.0/16 au cas où la liaison entre R1 et Branch2 serait interrompue ?",
-      "image": null,
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163253.png",
       "choices": [
          "ip route 10.10.0.0 255.255.0.0 Serial 0/0/0 100",
          "ip route 10.10.0.0 255.255.0.0 209.165.200.226 100",
@@ -1433,7 +1433,7 @@
          "Ils prennent en charge les sous-interfaces, notamment les interfaces sur les routeurs Cisco IOS."
       ],
       "answers": [
-         2
+         1, 2
       ]
    },
    {
@@ -1650,7 +1650,7 @@
          "STP"
       ],
       "answers": [
-         3
+         0
       ]
    },
    {
@@ -1875,7 +1875,7 @@
          "L’interface de commande GigabitEthernet0/0.5 a été saisie de manière incorrecte.",
          "Aucune adresse IP n’est configurée sur l’interface Gi0/0.",
          "La commande no shutdown n’est pas entrée sur les sous-interfaces.",
-         "Le eLa commande ncapsulation dot1Q 5 contient le mauvais VLAN."
+         "La commande encapsulation dot1Q 5 contient le mauvais VLAN."
       ],
       "answers": [
          4

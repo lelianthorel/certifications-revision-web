@@ -788,7 +788,7 @@
       "choices": [
          "SÉCURITÉ",
          "SANS FIL",
-         "Réseaux locaux sans fil",
+         "WLAN",
          "GESTION"
       ],
       "answers": [
@@ -813,7 +813,7 @@
       "image": null,
       "choices": [
          "Il spécifie le nombre maximal d’adresses L2 autorisées sur un port.",
-         "Il désactive le PAO sur une interface non-trunking.",
+         "Il désactive le DTP sur une interface non-trunking.",
          "Il active le DAI sur des interfaces de commutation spécifiques précédemment configurées avec la surveillance DHCP.",
          "Il active manuellement un lien de trunk."
       ],
@@ -1281,7 +1281,7 @@
          "adresses MAC sécurisées automatiques",
          "adresses MAC sécurisées dynamiques",
          "adresses MAC sécurisées statiques",
-         "adresses MAC sécurisées fixes"
+         "adresses MAC sécurisées sticky"
       ],
       "answers": [
          3
@@ -1976,22 +1976,6 @@
       ]
    },
    {
-      "question": "Cas 3 : 122. Un nouveau commutateur de couche 3 est connecté à un routeur et est en cours de configuration pour le routage interVLAN. Quelles sont trois des cinq étapes requises pour la configuration ? (Choisissez trois réponses.)",
-      "image": null,
-      "choices": [
-         "activation du routage IP",
-         "modifier le VLAN par défaut",
-         "en saisissant « pas de port de commutation » sur le port connecté au routeur",
-         "établissement de contiguïtés",
-         "attribution de ports aux VLAN",
-         "ajustement de la métrique d’itinéraire",
-         "attribution des ports au VLAN natif"
-      ],
-      "answers": [
-         0, 2, 3
-      ]
-   },
-   {
       "question": "132. Les employés ne peuvent pas se connecter aux serveurs sur l’un des réseaux internes. Que faut-il faire ou vérifier ?",
       "image": null,
       "choices": [
@@ -2014,7 +1998,7 @@
          "Vérifiez la table de routage pour une route statique manquante."
       ],
       "answers": [
-         0
+         3
       ]
    },
    {

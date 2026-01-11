@@ -1,0 +1,1180 @@
+[
+  {
+    "question": "LE proxy SSL n'est capable de déchiffrer que le trafic HTTPS",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Lorsqu'un serveur présente un certificat auto-signé, le proxy SSL poursuivra le handshake SSL",
+    "image": null,
+    "choices": [
+      "Si le paramètre « Type de certificat incorrect » du profil du protocole SSL est positionné sur « Continuer l'analyse »",
+      "Si le paramètre « Certificats auto-signés » du profil du protocole SSL est positionné sur « Continuer l'analyse »",
+      "Si le paramètre « certificats inconnus » du profil du protocole SSL est positionné sur « Continuer l'analyse »",
+      "Si le paramètre « Certificats auto-signés » du profil du protocole SSL est possitionné sur « Bloquer » mais que la robustesse du chiffrement est acceptable"
+    ],
+    "answers": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Les autorités de certification publiques présentes dans la configuration globale du protocole SSL sont mises à jour",
+    "image": null,
+    "choices": [
+      "Les deux solutions sont possibles",
+      "Par une mise à jour firmware",
+      "Par la fonction Active update"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Sur une action « Passer sans déchiffrer », le client reçoit le véritable certificat du serveur public lors de son handshake SSL",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "J'utilise le proxy SSL et mon navigateur lève systématiquement un avertissement à propos des certificats des serveurs publics :",
+    "image": null,
+    "choices": [
+      "Parce que la liste des autorités publiques n'est pas à jour dans mon firewall",
+      "Parce que l'autorité utilisée par le proxy SSL n'a pas été importée comme autorité de certification de confiance dans mon navigateur",
+      "Parce que la liste des autorités publiques n'est pas à jour dans mon navigateur",
+      "Parce que mon ordinateur n'est pas dans le même fuseau horaire que le firewall",
+      "Parce que mon navigateur ne trouve pas de certificat utilisateur pour m'authentifier"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Sur des flux HTTPS, le contenu des pages retournées par le serveur est chiffré, mais les URL appelées par les clients apparaissent en clair dans l'en-tête HTTPS, c'est pourquoi il est possible d'appliquer un filtrage d'URL sur les flux HTTPS sans devoir les déchiffrer",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Le proxy SSL présentera aux clients du LAN des certificats identiques à ceux que les serveurs HTTPS publics lui auront présentés",
+    "image": null,
+    "choices": [
+      "FAUX",
+      "Vrai dans tous les cas",
+      "Vrai seulement si la CA qui a signé le certificat est listée dans les autorités de confiance du proxy SSL"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le proxy SSL a besoin de CA pour signer le certificat serveur qu'il présentera aux clients du LAN",
+    "image": null,
+    "choices": [
+      "FAUX",
+      "VRAI"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "L'administrateur du firewall peut choisir la CA qui servira à signer les certificats présentés au client par le proxy SSL",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Lorsque la méthode Agent SSO est utilisée dans une politique d'authentification avec d'autres méthodes d'authentification, elle est prioritaire sur la méthode",
+    "image": null,
+    "choices": [
+      "Méthode Guest",
+      "Radius",
+      "LDAP",
+      "SPNEGO",
+      "Kerberos"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Pour que la méthode d'authentification SPNEGO fonctionne dans le cadre d'un cluster de haute disponibilité, le portail d'authentification doit utiliser un élément commun aux deux firewalls. Quel est cet élément ?",
+    "image": null,
+    "choices": [
+      "Un nom de service spécifique",
+      "Un certificat utilisateur",
+      "Un certificat serveur",
+      "une durée d'authentification spécifique"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Un utilisateur peut s'authentifier avec son certificat même si aucune PKI interne n'est configurée sur le firewall concerné",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Toutes les méthodes d'authentification transparente nécessitent que les postes client fasse partie du domaine de l'entreprise",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "La durée d'authentification transparente :",
+    "image": null,
+    "choices": [
+      "Peut être choisie par l'utilisateur",
+      "Est par défaut la même pour les méthodes SSO et SPNEGO",
+      "Est par défaut de 3600 secondes pour la méthode Agent SSO",
+      "Peut avoir une valeur différente en fonction de l'interface pour les méthodes agent SSO et SPNEGO",
+      "Se configure sur les interfaces internes"
+    ],
+    "answers": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "Par défaut, les échanges entre le firewall et l'agent SSO s'effectuent sur le port",
+    "image": null,
+    "choices": [
+      "UDP/1301",
+      "TCP/1301",
+      "TCP/1300",
+      "UDP/1300",
+      "TCP/443"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "L'interface GRETAP permet l'encapsulation :",
+    "image": null,
+    "choices": [
+      "de paquets",
+      "de trames",
+      "de segments"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "On peux établir deux tunnels GRETAP entre deux firewalls",
+    "image": null,
+    "choices": [
+      "Oui mais en utilisant des adresses IP différentes pour les extrémités des deux tunnels",
+      "Non"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Les flux broadcast peuvent être transmis via une interface GRE",
+    "image": null,
+    "choices": [
+      "Non",
+      "Oui"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "On peut transmettre un trafic GRETAP via un tunnel VPN IPSec",
+    "image": null,
+    "choices": [
+      "Non",
+      "Oui",
+      "Oui mais seulement en utilisant les interfaces VTI"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "On peut transmettre sélectivement un trafic VLAN tagué avec une valeur de tag 802,1Q spécifique via un tunnel GRETAP",
+    "image": null,
+    "choices": [
+      "Non",
+      "Oui"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "On peut créer deux tunnels GRE possédant les mêmes extrémités de tunnel",
+    "image": null,
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le tunnel GRE peut être utilisé pour relier deux réseaux partageant le même plan d'adressage.",
+    "image": null,
+    "choices": [
+      "Non",
+      "Oui"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "On peut transmettre une trame étiquetée 802,1q ayant un VLAN ID spécifique via un tunnel GRE.",
+    "image": null,
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Peut-on agréger des interfaces GRE ?",
+    "image": null,
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "L'en-tête du protocole GRE contient l'adresse IP des interfaces GRE",
+    "image": null,
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "L'assistant de configuration de la HA déterminera seul les adresses Ip des interfaces utilisées pour le(s) lien(s) HA",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Un cluster HA peut être configuré entre des équipements dont les licences affichen",
+    "image": null,
+    "choices": [
+      "Slave et Slave",
+      "Master et Master",
+      "Master et Slave"
+    ],
+    "answers": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Quand deux firewalls Stormshield Network sont configurés en HA, le cluster assure",
+    "image": null,
+    "choices": [
+      "Une bascule en cas de défaillance du firewall actif",
+      "Une protection contre les attaques DDOS",
+      "Des temps de traitement de paquets plus courts",
+      "Une répartition de charge entre les deux firewalls"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le facteur qualité est le seul critère d'élection du memebre actif d'un cluster HA",
+    "image": null,
+    "choices": [
+      "Faux",
+      "Vrai"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le plan d'adressage affecté aux interfaces HA doit impérativement être un réseau /30 (255.255.255.252)",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Que se passe-t-il si les deux liens de contrôle HA ne fonctionnent plus",
+    "image": null,
+    "choices": [
+      "Les deux firewalls se mettent en mode passif",
+      "Rien, chaque firewall garde son état",
+      "Les deux firewalls s'arrêtent de fonctionner",
+      "Les deux firewalls se mettent en mode actif"
+    ],
+    "answers": [
+      3
+    ]
+  },
+  {
+    "question": "Sélectionnez les informations qui sont synchronisées automatiquement entre les membres d'un cluster HA",
+    "image": null,
+    "choices": [
+      "Les utilisateurs authentifiés",
+      "La configuration",
+      "Les connexions traversant un proxy HTTP",
+      "Les baux DHCP",
+      "Les tunnels IPSec négociés en IKEv1",
+      "Les connexions TCP et UDP"
+    ],
+    "answers": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "question": "Lors d'une bascule, le nouveau membre actif du cluster HA émet une requête ARP gratuite (Gratuitous ARP). Quel est l'intérêt de cet envoi ?",
+    "image": null,
+    "choices": [
+      "Rafraîchir la table d'association MAC/port des switches du voisinage",
+      "Vérifier si les adresses IP du firewall sont en conflit avec d'autres machines du voisinage",
+      "maintenir à jour la table des hôtes du firewall",
+      "Maintenir à jour la table des connexions du firewall"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "En IKEv1, Le paramètre « bas » du DPD entraîne une durée maximale de détection de :",
+    "image": null,
+    "choices": [
+      "3010 secondes",
+      "650 secondes",
+      "6005 secondes"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Lors de négociations IKE/IPSec, la CRL n'est vérifiée que pour les certificats utilisateur dans lesquels le champ CRLDP (point de distribution) est renseigné",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "La version de NAT-T :",
+    "image": null,
+    "choices": [
+      "Rendra la fonctionnalité NAT-T inutilisable si elle diffère sur les deux correspondants",
+      "Est forcément identique sur les deux correspondants car il n'en existe qu'une seule version sur IKEv1",
+      "Est forcément identique sur les deux correspondants car il n'en existe qu'une seule version sur IKEv2",
+      "Conduira à un échec des négociations si elle diffère sur les deux correspondants"
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Si le firewall est connecté à un annuaire LDAP, des correspondants nomades peuvent négocier sur IKEv1 en utilisant les méthodes d'authentification",
+    "image": null,
+    "choices": [
+      "Certificat +Xauth",
+      "Certificat",
+      "Hybride",
+      "PSK + Xauth",
+      "identifiant user@FQDN + PSK"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "La fonctionnalité DPD en IKE1, appelée Liverness en IKEv2",
+    "image": null,
+    "choices": [
+      "Est désactivable en IKEv1 et IKEv2",
+      "Est désactivable seulement en IKEv1",
+      "N'est pas désactivable sur les firewalls SNS",
+      "Est désactivable seulement en IKEv2"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Le NAT-T a été annoncé durant la phase de négociation de mon tunnel IPSec. Il semblerait que le site distant soit situé derrière un équipement qui effectue du NAT. Quel log VPN est généré dans ce cas ?",
+    "image": null,
+    "choices": [
+      "Aucun des logs cités ci-dessus",
+      "NAT detected, switching to port 500",
+      "Remote site changed",
+      "Switching to NAT-T",
+      "Phase established"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Toutes les autorités de certification présentes dans le menu Objects > Certificats et PKI sont automatiquement considérées de confiances pour les négociations IKE/IPSec",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Le mécanisme NAT-T signifie",
+    "image": null,
+    "choices": [
+      "NAT-Token",
+      "NAT-Traversal",
+      "NAT-Translation",
+      "NAT-Traversal"
+    ],
+    "answers": [
+      3
+    ]
+  },
+  {
+    "question": "La version d'IKE utilisée pour les négociations IPSec",
+    "image": null,
+    "choices": [
+      "Conditionne les puissances de chiffrement et la taille de clé Diffie-Hellman",
+      "Doit être définie au préalable",
+      "Est négociée dans les deux premiers paquets de négociation",
+      "Sera choisie après la phase 1"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Pour une négociation IKE/IPSec par certificat, l'identité d'un firewall Stormshield est obligatoirement de type serveur",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "L'option « Considérer les interfaces IPSec comme internes » a pour conséquence de :",
+    "image": null,
+    "choices": [
+      "Modifier le caractère externe de l'interface IPSec",
+      "Modifier le caractère externe de l'extrémité de tunnel",
+      "Devoir ajouter manuellement les routes statistiques pour joindre les réseaux distants",
+      "Créer automatiquement les routes statiques pour joindre les réseaux distants"
+    ],
+    "answers": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "la connexion du firewall à un annuaire LDAP est impérative pour que des correspondants IKE/IPSec se présentent avec des certificats utilisateur",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Il est possible de donner le choix à un client nomade IPSec de s'authentifier soit via sa clé-prépartagée soit via son certificat sans modifier la configuration côté Stormshield Network.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "La fonction Mode Config est en réalité assurée par le protocole DHCP encapsulé dans IPSec.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le plan d'adressage choisi pour livrer des adresses IP aux clients nomades en Mode Config doit impérativement faire partie de l'un des réseaux internes directement connecté au firewall.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "la fonction Dead Peer Detection (DPD) permet de négocier un tunnel VPN IPSec.",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Lorsque le DPD remonte un log « Remote seems to be dead » :",
+    "image": null,
+    "choices": [
+      "Seules les SA IPSec sont supprimées",
+      "Aucune des réponses proposées",
+      "Toutes les clés négociées avec ce correspondant sont supprimées",
+      "Une nouvelle phase 2 est immédiatement renégociée",
+      "Seules la SA ISAKMP est supprimées"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Lors de négociations IKE/IPSec d'un nomade présentant un certificat utilisateur, sur quel champ du certificat la recherche de l'utilisateur dans l'annuaire LDAP est-elle basée, par défaut ?",
+    "image": null,
+    "choices": [
+      "Login",
+      "CommonName",
+      "Mail",
+      "DistinguishedName",
+      "PhoneNumber"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Lors de négociations IKE/IPSec où les identités des correspondants sont des certificats serveurs :",
+    "image": null,
+    "choices": [
+      "L'absence de CRL conduit à un échec des négociations sur IKEv1",
+      "L'absence de CRL conduit à un échec des négociations sur IKEv2",
+      "La présence d'une CRL expirée conduit à un échec des négociations sur IKEv1",
+      "L'absence de CRL ne bloque pas les négociations",
+      "L'absence de CRL impose de détenir uen copie du certificat du correspondant",
+      "la présence d'une CRL expirée conduit à un échec des négociations sur IKEv2"
+    ],
+    "answers": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "question": "La fonction de NAT dans le tunnel IPSec peut s'appliquer en fonction de l'adresse Ip source et l'adresse IP destination d'une connexion.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Peut-on invalider un certificat avant la fin de sa période de validité ?",
+    "image": null,
+    "choices": [
+      "Oui",
+      "Non"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Toute autorité de certification crée localement sur le firewall doit dépendre d'une autorité parente.",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Si un certificat utilisateur est sur le point d'expirer, je peux prolonger sa période de validité en allongeant cette durée de validité dans les paramètres de la CA dont il est issu.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Une CRL :",
+    "image": null,
+    "choices": [
+      "Aucun des autres réponse n'est correcte",
+      "Doit toujours être valide pour établir un tunnel IPSec",
+      "Doit obligatoirement être créée lors de la création d'une autorité de certification",
+      "Sera régénérée automatiquement après la révocation d'un certificat, sans intervention de l'administrateur"
+    ],
+    "answers": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Dans quels modules les certificats créés par la PKI locale peuvent-ils être utilisés ?",
+    "image": null,
+    "choices": [
+      "Proxy SSL",
+      "Authentification de passerelles IPsec",
+      "Personnalisation du portail captif",
+      "Les objets réseau",
+      "Authentification des utilisateurs",
+      "Configuration du relai DHCP"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Si un message est déchiffrable par la même clé qui a chiffré le message, on parle alros de chiffrement :",
+    "image": null,
+    "choices": [
+      "Symétrique",
+      "A clé secrète",
+      "Asymétrique",
+      "A clé publiques"
+    ],
+    "answers": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Le module PKI Stormshield Network est capable de gérer plusieurs niveau d'autorité de certification.",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Une autorité de certification",
+    "image": null,
+    "choices": [
+      "Est obligatoirement autorité racine",
+      "Est l'équivalent d'une autorité d'enregistrement",
+      "Peut signer une CSR afin qu'elle devienne un certificat",
+      "permet de définir la période de validité d'un certificat",
+      "Peut signer la CRL"
+    ],
+    "answers": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "parmi les éléments listés, lesquels sont inclus dans un conteneur PKCS12 ?",
+    "image": null,
+    "choices": [
+      "Le certificat de l'utilisateur",
+      "La clé privée de l'autorité de certification qui a signé le certificat de l'utilisateur",
+      "La clé publique de l'utilisateur",
+      "la clé privée de l'utilisateur",
+      "Le contenu de la CRL"
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Un utilisateur est autorisé à s'authentifier sur le portail par le biais de la méthode certificat SSL. Une règle de filtrage redirige toutes les connexions à destination d'Internet sur le port 80 vers le portail d'authentification. Cet utilisateur ne dispose pas de son certificat et ne peut donc pas accéder à Internet. Par quelle(s) méthode(s) peut-il récupérer son certificat ?",
+    "image": null,
+    "choices": [
+      "Le générer via un client type OpenSS",
+      "Contacter l'administrateur du firewall",
+      "Contacter une autorité de certification racine type Verisign afin qu'elle lui génère un certificat"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Si j'intercepte le haché d'un message chiffré, il est possible de retrouver le message d'origine à partir de la valeur de ce haché",
+    "image": null,
+    "choices": [
+      "Faux",
+      "VRAI"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Stormshield Vulnerability manager est capable de détecter les applicatifs utilisés sur un réseau et d'en donner la version exacte.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Un datagramme est reçu par le firewall. L'en-tête Ip indique que le bit DF est positionné (valeur à 1), cela entraîne :",
+    "image": null,
+    "choices": [
+      "Que le firewall ne doit pas fragmenter le datagramme",
+      "aucune vérification sur ce bit n'est effectuée par le firewall",
+      "la levée systématique d'une alarme"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Parmi les affirmations suivantes, sélectionnez celles qui sont juste :",
+    "image": null,
+    "choices": [
+      "la liste blanche est parcourue avant la liste de quarantaine",
+      "Certains plugins permettent notamment de gérer l'ouverture de connexions filles",
+      "La configuration 00 de l'IPS s'applique par défaut aux connexions provenant d'une adresse IP source non protégée",
+      "La configuration 00 de l'IPS s'applique par défaut aux connexions provenant d'une adresse IP source incluse dans les réseaux protégés",
+      "la MSS est une négociation faite lors du handshake TCP"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Par défaut, quelle est la taille minimale d'un fragment IP intermédiaire pouvant être accepté par l'ASQ ?",
+    "image": null,
+    "choices": [
+      "120 octets",
+      "110 octets",
+      "130 octets",
+      "100 octets",
+      "140 octets"
+    ],
+    "answers": [
+      4
+    ]
+  },
+  {
+    "question": "L'ASQ est capable d'analyser les fonctions de scripts au sein d'une page HTML afin d'en modifier éventuellement le contenu malicieux.",
+    "image": null,
+    "choices": [
+      "Vrai mais cela nécessite une licence additionnelle",
+      "Vrai mais à condition que le plugin HTTP s'attache à la connexion",
+      "Vrai mais uniquement avec du xHTML",
+      "Ce n'est pas une fonctionnalité de l'ASQ"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "lorsqu'une alarme est levée, il est possible d'effectuer une ou plusieurs actions en conséquence ; la ou lesquelles ?",
+    "image": null,
+    "choices": [
+      "Envoyer un e-mail",
+      "Capturer le paquet responsable de l'alarme",
+      "Mettre en quarantaine l'adresse IP source de la connexion"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Les entrées présentes dans la liste blanche de l'ASQ ne seront pas soumises aux opérations de NAT.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Par défaut, l'ASQ bloque toute tentative d'attaque par recouvrement de fragments. Ce comportement peux être rendu tolérant depuis l'interface web d'administration.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le mode d'inspection \"IDS\" permet de contourner le blocage d'évènements de type \"Usurpation d'adresse IP\".",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "L'ASQ peut décider de mettre fin à une connexion TCP restée sans activité depuis trop longtemps.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "les analyse Web 2.0",
+    "image": null,
+    "choices": [
+      "Apportent la prise en charge des pages Web Dynamique",
+      "Apportent une analyse sur le code HTML des pages Web",
+      "Permettent de faire du filtrage d'URL",
+      "Apport la prise en charge des extensions au protocole http WebDAV et Shoutcast"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "La mise en quarantaine d'une machine en utilisant la liste noire peux s'effectuer :",
+    "image": null,
+    "choices": [
+      "Depuis les menus de supervision des journaux \"Vulnérabilités\"",
+      "En réaction d'une alarme générée",
+      "Depuis les traces visibles dans les rapports embarqués",
+      "Directement depuis le widget Alarmes Présent dans le tableau de bord"
+    ],
+    "answers": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Une machine mise en quarantaine pourra continuer de communiquer au travers du firewall si une entrée de bypass ASQ (liste blanche) est créée pour cette machine",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Le mode d'inspection \"Firewall\", appliqué à des flux FTP, oblige à gérer manuellement le filtrage pour permettre l'établissement des canaux de DATA",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "La MTU :",
+    "image": null,
+    "choices": [
+      "A pour valeur 1500 octets sur un réseau Token Ring",
+      "A pour valeur par défaut 1500 octets sur un réseau Ethernet",
+      "Est la taille maximum d'un datagramme IP pouvant être transmis sans subir de fragmentation",
+      "Signifie Maximum Transmission Unit"
+    ],
+    "answers": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Le firewall Stormshield Network assure un haut niveau de sécurité jusqu'à quelle couche du modèle OSI ?",
+    "image": null,
+    "choices": [
+      "Couche 8",
+      "Couche 4",
+      "Couche 1",
+      "Couche 7"
+    ],
+    "answers": [
+      3
+    ]
+  },
+  {
+    "question": "La liste blanche de l'ASQ peut être édité depuis l'interface web d'administration",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "En mode d'inspection \"Firewall\", aucun suivi protocolaire applicatif n'est appliqué quel que soit le protocole impliqué dans la connexion.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Les premiers échanges du dialogue applicatif des protocoles HTTP et FTP sont identiques ; c'est la forme de l'URL appelée http:// et ftp:// qui permet de les distinguer.",
+    "image": null,
+    "choices": [
+      "Vrai dans tous les cas",
+      "FAUX",
+      "Vrai, mais la phrase d'authentification sera également différente"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "La fonction Vulnerability Manager :",
+    "image": null,
+    "choices": [
+      "Alerte sur la présence de versions de logiciels présentant des vulnérabilités",
+      "Bloque toute communication impliquant des logiciels qui représente des vulnérabilité connues",
+      "Inscrit en Liste noire toute machine utilisant, depuis plus d'une semaine, des logiciels vulnérables",
+      "Teste les vulnérabilités en analysant activement des machines inscrites en liste de supervision"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Le mode d'inspection \"Firewall\" permet de contourner des inconformité liées à la fragmentation IP.",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "FAUX"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Suite à la fermeture propre d'une connexion (FIN-ACK, ACK, FIN-ACK,ACK), laissera passer une nouvelle connexion ayant les mêmes caractéristiques que la précédente ; à savoir la même adresse IP source, le même port source, la même adresse IP destination et le même port destination.",
+    "image": null,
+    "choices": [
+      "Vrai si le compteur \"Connexion fermée\" de l'ASQ est écoulé",
+      "Vrai si le compteur \"Connexion TCP\" de l'ASQ est écoulé",
+      "Vrai si le compteur \"Fermeture d'une connexion (FIN)\" de l'ASQ est écoulé",
+      "Faux dans tous les cas"
+    ],
+    "answers": [
+      3
+    ]
+  },
+  {
+    "question": "Une interface non protégée reçoit un datagramme en provenance d'une adresse IP appartenant à un réseau protégé. Quelle alarme sera levée ?",
+    "image": null,
+    "choices": [
+      "Mauvais numero de séquence TCP",
+      "Protocole http invalide",
+      "Usurpation d'adresse IP (type 2)",
+      "Paquet TCP invalide par rapport à l'état"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Les alarmes du moteur IPS peuvent être :",
+    "image": null,
+    "choices": [
+      "Triées par contexte ou par profil d'inspection",
+      "Communes à tous les profils d'inspection",
+      "Non modifiables pour certaines",
+      "Modifiées pour certaines par l'administrateur"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "le nombre de profils d'inspection (config ASQ) configurables dans l'ASQ est de",
+    "image": null,
+    "choices": [
+      "2",
+      "6",
+      "4",
+      "10",
+      "8"
+    ],
+    "answers": [
+      3
+    ]
+  },
+  {
+    "question": "L'activation du proxy SYN se fait :",
+    "image": null,
+    "choices": [
+      "Dans les paramètres de configuration de l'IPS",
+      "Dans les règles de filtrage"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Sur IKEv2, le mode de négociation est :",
+    "image": null,
+    "choices": [
+      "Obligatoirement le mode principal (MAIN mode)",
+      "Obligatoirement le mode agressif (AGRESSIVE mode)",
+      "Aucune des deux réponses proposées",
+      "Au choix, mode principal ou mode agressif"
+    ],
+    "answers": [
+      2
+    ]
+  },
+  {
+    "question": "Les réseaux accessibles via un tunnel GRE sont considérés comme des réseaux internes au firewall :",
+    "image": null,
+    "choices": [
+      "Non",
+      "Oui"
+    ],
+    "answers": [
+      0
+    ]
+  },
+  {
+    "question": "Pour une négociation IKE/IPSec par certificat, les identités des correspondants sont obligatoirement des certificats issus de la même Autorité :",
+    "image": null,
+    "choices": [
+      "VRAI",
+      "Faux"
+    ],
+    "answers": [
+      1
+    ]
+  },
+  {
+    "question": "Quel port utilise un tunnel GRE ?",
+    "image": null,
+    "choices": [
+      "50",
+      "47",
+      "49",
+      "48"
+    ],
+    "answers": [
+      1
+    ]
+  }
+]

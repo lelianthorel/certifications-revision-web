@@ -1,13 +1,13 @@
 [
   {
-    "question": "LE proxy SSL n'est capable de déchiffrer que le trafic HTTPS",
+    "question": "(✅) LE proxy SSL n'est capable de déchiffrer que le trafic HTTPS",
     "image": null,
     "choices": [
       "Faux",
       "VRAI"
     ],
     "answers": [
-      1
+      0
     ]
   },
   {
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "question": "Le proxy SSL a besoin de CA pour signer le certificat serveur qu'il présentera aux clients du LAN",
+    "question": "(✅) Le proxy SSL a besoin de CA pour signer le certificat serveur qu'il présentera aux clients du LAN",
     "image": null,
     "choices": [
       "FAUX",
@@ -460,6 +460,20 @@
     ]
   },
   {
+    "question": "(✅) Si le firewall est connecté à un annuaire LDAP, des correspondants nomades peuvent négocier sur IKEv2 en utilisant les méthodes d'authentification",
+    "image": null,
+    "choices": [
+      "Certificat +Xauth",
+      "Certificat",
+      "Hybride",
+      "identifiant user@FQDN + PSK"
+    ],
+    "answers": [
+      1,
+      3
+    ]
+  },
+  {
     "question": "La fonctionnalité DPD en IKE1, appelée Liverness en IKEv2",
     "image": null,
     "choices": [
@@ -498,16 +512,15 @@
     ]
   },
   {
-    "question": "Le mécanisme NAT-T signifie",
+    "question": "(✅) Le mécanisme NAT-T signifie",
     "image": null,
     "choices": [
       "NAT-Token",
-      "NAT-Traversal",
       "NAT-Translation",
       "NAT-Traversal"
     ],
     "answers": [
-      3
+      2
     ]
   },
   {
@@ -560,7 +573,7 @@
     ]
   },
   {
-    "question": "Il est possible de donner le choix à un client nomade IPSec de s'authentifier soit via sa clé-prépartagée soit via son certificat sans modifier la configuration côté Stormshield Network.",
+    "question": "(✅) Il est possible de donner le choix à un client nomade IPSec de s'authentifier soit via sa clé-prépartagée soit via son certificat sans modifier la configuration côté Stormshield Network.",
     "image": null,
     "choices": [
       "VRAI",
@@ -571,14 +584,14 @@
     ]
   },
   {
-    "question": "La fonction Mode Config est en réalité assurée par le protocole DHCP encapsulé dans IPSec.",
+    "question": "(✅) La fonction Mode Config est en réalité assurée par le protocole DHCP encapsulé dans IPSec.",
     "image": null,
     "choices": [
       "VRAI",
       "FAUX"
     ],
     "answers": [
-      0
+      1
     ]
   },
   {
@@ -682,7 +695,7 @@
     ]
   },
   {
-    "question": "Si un certificat utilisateur est sur le point d'expirer, je peux prolonger sa période de validité en allongeant cette durée de validité dans les paramètres de la CA dont il est issu.",
+    "question": "(✅) Si un certificat utilisateur est sur le point d'expirer, je peux prolonger sa période de validité en allongeant cette durée de validité dans les paramètres de la CA dont il est issu.",
     "image": null,
     "choices": [
       "VRAI",
@@ -1175,6 +1188,19 @@
     ],
     "answers": [
       1
+    ]
+  },
+  {
+    "question": "(✅) Pour assurer la confidentialité lors de l'envoi d'un bloc de données, je peux le chiffrer :",
+    "image": null,
+    "choices": [
+      "En utilisant la clé publique du destinataire",
+      "Peu importe la clé, cela dépend seulement de l'algorithme de chiffrement",
+      "En utilisant ma clé publique",
+      "En utilisant ma clé privée"
+    ],
+    "answers": [
+      0
     ]
   }
 ]

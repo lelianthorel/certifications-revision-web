@@ -562,14 +562,14 @@
     ]
   },
   {
-    "question": "la connexion du firewall à un annuaire LDAP est impérative pour que des correspondants IKE/IPSec se présentent avec des certificats utilisateur",
+    "question": "(✅) la connexion du firewall à un annuaire LDAP est impérative pour que des correspondants IKE/IPSec se présentent avec des certificats utilisateur",
     "image": null,
     "choices": [
       "VRAI",
       "FAUX"
     ],
     "answers": [
-      1
+      0
     ]
   },
   {
